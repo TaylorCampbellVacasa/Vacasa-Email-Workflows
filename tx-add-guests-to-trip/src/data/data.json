@@ -1,0 +1,20 @@
+{
+  "rndr_template": true,
+  "rndr_headline": "2019 Year&nbsp;in&nbsp;Review",
+  "rndr_subhead": "We crunched the numbers and found the most popular, eye-catching and in demand units&nbsp;ofthe&nbsp;year.",
+  "unit_1_url": "https://www.vacasa.com/unit.php?UnitID=19769&utm_campaign=BrowseNotBooked&utm_campaignid=2&utm_uuid=None&utm_source=peat&utm_medium=email",
+  "unit_1_name": "Rustic Star Retreat",
+  "unit_1_bed": 3,
+  "unit_1_bath": 2,
+  "unit_1_sleeps": 10,
+  "unit_1_price": 271,
+  "reservation_unit_name": "Rustic Star Retreat",
+  "reservation_unit_image": "https://vacasa-units.imgix.net/1217056.jpg",
+  "reservation_unit_address_city": "Government Camp",
+  "add_a_guest_url": "https://www.vacasa.com/trip",
+  "mobile_app_url": "https://www.vacasa.com/mobile",
+  "city_name": "Lempus",
+  "utm": "utm_source=sendgrid&utm_medium=email&utm_campaign=add_guests_to_trip",
+  "utm_add": "&utm_source=sendgrid&utm_medium=email&utm_campaign=add_guests_to_trip",
+  "utm_new": "/?utm_source=sendgrid&utm_medium=email&utm_campaign=add_guests_to_trip"
+}

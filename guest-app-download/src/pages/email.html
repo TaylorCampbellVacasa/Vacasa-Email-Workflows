@@ -1,0 +1,34 @@
+<heml>
+  <head>
+    <preview
+      >Book your next getaway, add guests to existing trips, connect to WiFi
+      instantly, and more.</preview
+    >
+
+    <!-- inject-style src="src/CSS/base.css" -->
+    <!-- inject-style src="src/CSS/header-white.css" -->
+    <!-- inject-style src="src/CSS/cta.css" -->
+    <!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+    <!-- inject-style src="src/CSS/buttons.css" -->
+    <!-- inject-style src="src/CSS/mobile-app.css" -->
+    <!-- inject-style src="src/CSS/email-body.css" -->
+
+    <style heml-ignore>
+      @media only screen and (max-width: 600px) {
+        .main-cta {
+          padding-right: 24px !important;
+        }
+      }
+
+      .main-cta {
+        padding-left: 24px;
+        padding-right: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    {{> header-white-btn }} {{> mobile-app }} {{> body-text-left-button }} {{>
+    vacasa-footer }}
+  </body>
+</heml>

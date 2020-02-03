@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "destinations": {
+        "featured": [
+          {
+            "active": true,
+            "active_unit_count": 448,
+            "country_id": "1",
+            "destination_id": "4",
+            "full_slug": "/usa/Tahoe/",
+            "image": "https://vacasa.imgix.net/images/locations/large/2536.jpg",
+            "mgmt_description": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;We love Tahoe for its sparkling summers, pristine winters, and everything in between&mdash;and vacation rental guests feel the same way. While summer and ski season might be guests' favorite times to visit, many Lake Tahoe vacation rentals&mdash;especially homes with premium amenities like hot tubs&mdash;see high occupancy all year long.\\n\\nWith so many guests looking for beach rentals in the Tahoe area, it might be time to ask yourself: Is my property performing at its full potential? Whether you're already renting out your home or you're in the consideration stage, our dedicated local property management staff and industry-leading technology can help you make the most of your investment. Our Tahoe vacation rental management gives you higher occupancy rates and returns than the area average, and our owner-friendly policies put your needs first. We&rsquo;ll never lock you into long-term agreements, and we don't limit owner stays, either.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:4993,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Arial&quot;}\">We love Tahoe for its sparkling summers, pristine winters, and everything in between&mdash;and vacation rental guests feel the same way. While summer and ski season might be guests' favorite times to visit, many Lake Tahoe vacation rentals&mdash;especially homes with premium amenities like hot tubs&mdash;see high occupancy all year long.<br /><br />With so many guests looking for beach rentals in the Tahoe area, it might be time to ask yourself: Is my property performing at its full potential? Whether you're already renting out your home or you're in the consideration stage, our dedicated local property management staff and industry-leading technology can help you make the most of your investment. Our Tahoe vacation rental management gives you higher occupancy rates and returns than the area average, and our owner-friendly policies put your needs first. We&rsquo;ll never lock you into long-term agreements, and we don't limit owner stays, either.</span></p>",
+            "name": "Lake Tahoe",
+            "recommended_cities": [
+              {
+                "active": true,
+                "active_unit_count": 164,
+                "city_id": "32",
+                "image": "https://vacasa.imgix.net/images/locations/large/185.jpg",
+                "image_url": null,
+                "mgmt_description": "<div><!--block--></div>\r\n<p>A long-time winter sports destination, in recent years Truckee and Northstar Village have become more popular as a year-round getaway for adventure-seekers from all over. As a Truckee vacation homeowner, you know that keeping your place in good shape is as tough as vacationing there is fun. Renting your home with a full-service Truckee vacation rental property manager can make maintaining your home simple and earn you an exceptional return on your investment.<br /><br />The cost of renting your Truckee vacation home is complicated. While the town is vacation rental friendly, with visitors to Truckee and Northstar Village vacation homes paying a <a href=\"https://www.cdtfa.ca.gov/taxes-and-fees/rates.aspx\" target=\"_blank\">10 percent town Transient Occupancy Tax</a>, the real costs accumulate during the winter. Homes in Truckee and Northstar Village often sell after only two to four years of ownership because of the maintenance challenges of heavy snowfall. There are some zoning restrictions to be aware of as well.<br /><br />Rent your home with us, and rest assured that you'll have maintenance and housekeeping all year long. We'll help keep your home booked while you're not there, which keeps your pipes warm in the winter and helps prevent any cold-related damage. Our local maintenance staff helps manage snow buildup while our housekeepers clean your home before and after every stay. Anytime you want to hit the slopes, you can arrive and just relax. We'll take care of the shoveling.<br /><br />With us, your home has the backing of both committed, local staff and professional digital marketing. Our owners' success is important to us, so we don't charge you extra for professional photography and third-party listing services. When your Truckee vacation home stands out on sites like Airbnb, VRBO and Booking.com, you get better returns. Our dynamic rate-setting technology helps keep your home booked through the shoulder season, driving income year round. We'll never limit the number of nights you can stay in your home, allowing you to both enjoy your property and capitalize on your investment.<br /><br />Ready to rent with ease? Contact us, and we'll show you how simple renting your Truckee vacation home can be.</p>",
+                "name": "Truckee",
+                "state_id": "5",
+                "url": "/usa/California/Truckee/"
+              },
+              {
+                "active": true,
+                "active_unit_count": 92,
+                "city_id": "84",
+                "image": "https://vacasa.imgix.net/images/locations/large/32.jpg",
+                "image_url": null,
+                "mgmt_description": "<p>As a perennially popular vacation destination for families from all over California and the rest of the world, demand for vacation homes in South Lake Tahoe is as high as it's ever been.</p>\r\n<p>But renting a South Lake Tahoe vacation home is complicated, to say the least. Beginning in 2022, the city will restrict vacation rentals to the tourist core, the area along US-50 between the state line and Ski Run Boulevard. While the city of South Lake Tahoe has ceased granting short-term rental permits, homes in El Dorado County may still receive them. Currently, the <a href=\"https://www.cdtfa.ca.gov/taxes-and-fees/rates.aspx\" target=\"_blank\">tax rate for vacation rentals in South Lake Tahoe is 10 percent, with a nightly rate of 4.5 percent</a>.</p>\r\n<p>With such new regulations to consider, it pays to have a local vacation rental manager on your side. Our local teams look after your home, your guests, and your community to make renting as stress free as possible. We require an in-person check-in at our office to ensure our guests know about the rules and regulations that both the city and county have in place.</p>\r\n<p>We clean your home before and after every guest stay, restock toiletries, and even respond to guest-related emergencies 24/7. When you want to get away and visit your South Lake Tahoe vacation home, rest assured that it'll be ready for you anytime.</p>\r\n<p>We aim to make your vacation rental profitable, too. We'll take professional photographs, list your home on sites like Airbnb and TripAdvisor, and manage your bookings to get you the best exposure possible. Your home's nightly rate automatically adjusts to changes in season and demand to garner the highest nightly prices during the peak season, while driving bookings when tourism slows down. Your home will look good and remain competitively-priced, earning you more all year long.</p>\r\n<p>Talk to a local expert about opportunities to rent your South Lake Tahoe-area vacation home. We'll make it simple to earn more and rent with ease.</p>",
+                "name": "South Lake Tahoe",
+                "state_id": "5",
+                "url": "/usa/California/South-Lake-Tahoe/"
+              }
+            ],
+            "url": "Tahoe"
+          }
+        ]
+      }
+    }
+  ]
+}

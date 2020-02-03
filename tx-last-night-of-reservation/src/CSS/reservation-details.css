@@ -1,0 +1,61 @@
+@media only screen and (max-width: 500px) {
+  .reservation-heading {
+    font-size: 21px !important;
+    letter-spacing: -0.5px !important;
+    line-height: 28px !important;
+  }
+}
+
+.reservation-heading {
+  max-width: 568px;
+  height: auto;
+  color: #2c3439;
+  font-size: 28px;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 36px;
+  margin: 0 auto 8px auto;
+}
+
+.reservation-unit-name {
+  margin: 0;
+  color: #2c3439;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  overflow: hidden !important;
+  text-decoration: none;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: normal;
+}
+
+.reservation-unit-address {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.check-in-out {
+  color: #707579;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: none;
+  margin: 0;
+}
+
+.reservation-unit-date {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 500;
+  margin: 0;
+}

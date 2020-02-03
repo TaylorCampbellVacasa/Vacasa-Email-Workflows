@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px) {
+  .section-pop-out {
+    display: initial !important;
+  }
+
+  .section-container-left {
+    padding: 0px 24px 16px 24px !important;
+  }
+
+  .section-container-right {
+    padding: 0px 24px 16px 24px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .section h2 {
+    font-size: 21px !important;
+    letter-spacing: -0.5px !important;
+    line-height: 28px !important;
+  }
+}
+
+.section {
+  word-wrap: normal;
+}
+
+.section h2 {
+  max-width: 568px;
+  height: auto;
+  color: #2c3439;
+  font-size: 21px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  margin: 0 auto 16px auto;
+}
+
+.section h2.tertiary {
+  max-width: 568px;
+  height: auto;
+  color: #2c3439;
+  font-size: 21px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin: 8px auto 16px auto;
+}
+
+.section span.sub-message {
+  color: #2c3439;
+  font-size: 18px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.section-pop-out {
+  display: none;
+  color: #000000;
+  padding-top: 8px;
+}
+
+.section img.side-image {
+  margin-top: 8px;
+}
+
+.section-pop-out img {
+  margin: auto;
+}
+
+.section-container-left {
+  padding: 0px 8px 0 24px;
+}
+
+.section-container-right {
+  padding: 0px 24px 0 8px;
+}

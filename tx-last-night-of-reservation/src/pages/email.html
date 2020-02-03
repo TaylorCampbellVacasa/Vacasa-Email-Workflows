@@ -1,0 +1,42 @@
+<heml>
+
+	<head>
+		<preview>Book today on Vacasa.com</preview>
+
+		<!-- inject-style src="src/CSS/base.css" -->
+		<!-- inject-style src="src/CSS/header.css" -->
+		<!-- inject-style src="src/CSS/cta.css" -->
+		<!-- inject-style src="src/CSS/section.css" -->
+		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+		<!-- inject-style src="src/CSS/buttons.css" -->
+		<!-- inject-style src="src/CSS/basic-card.css" -->
+
+	</head>
+
+	<body>
+
+		{{> header-white }}
+
+		{{> cta-image-header-message-btn main_image="{{ UNIT_IMAGE_URL }}" url="{{ UNIT_URL }}" }}
+
+		{{> section-image-header-message-btn 
+			main_image="{{ REGION_IMAGE_URL }}" name="{{ unit_1_name }}" url="{{ REGION_PUBLIC_FULL_URL }}" }}
+
+		<container>
+			<row class="padding-b-small">
+				<column class="card-container-left" large="6" small="12">
+					{{> basic-card-1 }}
+				</column>
+				<column class="card-container-right" large="6" small="12">
+					{{> basic-card-2 }}
+				</column>
+			</row>
+		</container>
+
+		{{> section-2-image-header-message-btn }}
+
+		{{> vacasa-footer }}
+
+
+	</body>
+</heml>

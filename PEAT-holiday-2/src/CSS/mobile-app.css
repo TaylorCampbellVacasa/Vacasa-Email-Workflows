@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+	.pop-down {
+		display: initial !important;
+	}
+}
+
+.mobile-app-container {
+	padding-bottom: 24px;
+}
+
+.mobile-app {
+	text-align: left !important;
+	word-wrap: normal;
+	-ms-word-wrap: normal;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.prehead {
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+.mobile-app h2.mobile-app-header {
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-family: "Wigrum", Helvetica, Arial, sans-serif;
+	font-size: 34px;
+	line-height: 36px;
+	letter-spacing: initial;
+	color: #ffffff;
+}
+
+.mobile-app p.mobile-app-copy {
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	margin-bottom: 24px;
+}
+.mobile-app-apple-link-btn {
+	margin-right: 8px;
+}
+
+.pop-down {
+	display: none;
+	background-color: #ffe700;
+	color: #ffffff;
+	padding-top: 24px;
+}

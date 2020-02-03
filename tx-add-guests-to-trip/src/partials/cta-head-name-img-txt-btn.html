@@ -1,0 +1,42 @@
+<container>
+	<row>
+		<column class="gutter padding-b-large cta text-left small-head">
+			<h1 class="white-header">Share the excitement with your&nbsp;guests</h1>
+			<!--[if mso]><br /><![endif]-->
+			<a href="{{ add_a_guest_url }}{{ utm_new }}" target="_blank">
+				<!-- {{{{raw-helper}}}} --><span class="unit-name">{{ reservation_unit_name }}</span>
+				<!-- {{{{/raw-helper}}}} -->
+			</a>
+			<!--[if mso]><br /><![endif]-->
+			<a href="{{ add_a_guest_url }}{{ utm_new }}" target="_blank">
+				<!-- {{{{raw-helper}}}} -->
+				<img class="top-unit-name" infer="retina" width="556"
+					src="{{ reservation_unit_image }}?w=1112&ar=2:1&fit=crop&crop=entropy,edges"
+					alt="Open a new page to add guest to your trip to {{ reservation_unit_name }}."></img>
+			</a>
+			<!-- {{{{/raw-helper}}}} -->
+			<!--[if mso]><br /><br /><![endif]-->
+			<!-- {{{{raw-helper}}}} -->
+			<span class="sub-message">Let your guests know that it's almost time to start packing for
+				{{ reservation_unit_address_city }}. Once added, they'll receive the details of your upcoming trip.</span>
+			<!-- {{{{/raw-helper}}}} -->
+		</column>
+	</row>
+</container>
+
+<container>
+	<row class="">
+		<column large="6" small="12" class="button text-center cta-left-btn padding-b-large">
+			{{> primary-button label="Add Guests" }}
+		</column>
+		<column large="6" small="0"></column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="gutter padding-b-large">
+			<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:552px; height:1px;" />
+		</column>
+	</row>
+</container>

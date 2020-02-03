@@ -1,0 +1,99 @@
+<heml>
+
+	<head>
+		<preview>Find your Vacasa home and start planning your next adventure.</preview>
+
+		<!-- inject-style src="src/CSS/base.css" -->
+		<!-- inject-style src="src/CSS/header.css" -->
+		<!-- inject-style src="src/CSS/cta.css" -->
+		<!-- inject-style src="src/CSS/search.css" -->
+		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+		<!-- inject-style src="src/CSS/buttons.css" -->
+		<!-- inject-style src="src/CSS/section.css" -->
+	</head>
+
+	<body>
+
+		{{> header }}
+		<!-- {{{{raw-helper}}}} -->
+		{{#each data}}
+			<!-- {{{{/raw-helper}}}} -->
+
+			{{> cta-small-head image="{{ illustration_link }}" url="{{ location_url }}"
+			utm="{{ utms }}"
+			}}
+
+			<container>
+				<row>
+					<column class="cta gutter text-center">
+						<h2 class="large-secondary padding-b-large">Featured
+							<!-- {{{{raw-helper}}}} -->{{ this.destinations.featured.0.name }} destinations
+							<!-- {{{{/raw-helper}}}} -->
+							<!--[if mso]><br /><br /><![endif]-->
+						</h2>
+					</column>
+				</row>
+			</container>
+			<!-- {{{{raw-helper}}}} -->
+			{{#destinations.featured.0.recommended_cities }}
+				<container>
+					<row>
+						<column large="6" small="12" class="section text-left section-container-left">
+							<a href="https://vacasa.com{{{ url }}}?utm_campaign=featured_destinations&utm_campaignid=34&utm_uuid=None&utm_source=peat&utm_medium=email"
+								target="_blank">
+
+								<img width="268" class="side-image" src="{{{ image }}}?w=568&ar=16:9&q=65&fit=crop&crop=entropy,edges"
+									alt="Explore {{ active_unit_count }} {{ name }} homes on Vacasa.com."></img>
+							</a>
+						</column>
+						<column large="6" small="7" class="section section-container-right">
+							<container class="section-content-container text-left">
+								<row>
+									<column class="padding-b-small">
+										<h2
+											style="margin: 0; font-size: 28px; line-height: 36px; letter-spacing: -0.5; color: #2C3439; white-space: nowrap;">
+											{{ name }}
+										</h2>
+									</column>
+								</row>
+								<row>
+									<column class="padding-b-small text-left cta">
+										<p class="sub-message little-margin text p"
+											style="display: block; margin: 0; word-wrap: normal; color: #000000; font-family: 'Nunito Sans',Arial,sans-serif; font-size: 18px; font-weight: 500; line-height: 24px; text-align: left;">
+											<a href="https://vacasa.com{{{ url }}}?utm_campaign=featured_destinations&utm_campaignid=34&utm_uuid=None&utm_source=peat&utm_medium=email"
+												target="_blank" class="a" style="text-decoration: none; margin: 0; color: #003349;"><span
+													class="a__text"
+													style="margin: 0; text-decoration: none; color: #003349;"><strong>Explore&nbsp;{{ active_unit_count }}
+														{{ name }} homes</strong></span></a></p>
+									</column>
+								</row>
+							</container>
+						</column>
+					</row>
+				</container>
+				<container>
+					<row>
+						<column class="padding-b">
+							<!--pad-col-->
+						</column>
+					</row>
+				</container>
+			{{/destinations.featured.0.recommended_cities }}
+
+			<container>
+				<row>
+					<column class="padding-b-large">
+						<!--pad-col-->
+					</column>
+				</row>
+			</container>
+
+
+		{{/each}}
+		<!-- {{{{/raw-helper}}}} -->
+
+		{{> search }}
+
+		{{> vacasa-footer }}
+	</body>
+</heml>

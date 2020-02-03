@@ -1,0 +1,71 @@
+<heml>
+
+	<head>
+		<subject>Email Subject</subject>
+		<preview>Book today on Vacasa.com</preview>
+
+		<!-- inject-style src="src/CSS/base.css" -->
+		<!-- inject-style src="src/CSS/header.css" -->
+		<!-- inject-style src="src/CSS/cta.css" -->
+		<!-- inject-style src="src/CSS/main.css" -->
+		<!-- inject-style src="src/CSS/search.css" -->
+		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+		<!-- inject-style src="src/CSS/footer.css" -->
+		<!-- inject-style src="src/CSS/buttons.css" -->
+		<!-- inject-style src="src/CSS/basic-card.css" -->
+		<!-- inject-style src="src/CSS/mobile-app.css" -->
+		<!-- inject-style src="src/CSS/fourbox.css" -->
+		<!-- inject-style src="src/CSS/reservation-details.css" -->
+
+		<style heml-ignore>
+			table.button {
+				margin: 0px auto 0px auto !important;
+			}
+
+			@media only screen and (max-width: 600px) {
+				.mobile-column {
+					margin: 0px auto;
+					width: 268px;
+				}
+
+				.header .tagline {
+					display: none !important;
+				}
+
+				h1.cta {
+					font-size: 56px !important;
+				}
+
+				.main img {
+					margin: 0px auto 0px auto !important;
+				}
+
+				.main h2.header {
+					font-size: 32px !important;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<container>
+			{{> header-white }}
+		</container>
+
+
+		<container>
+			{{> cta-header-msg-btn-image main_image=unit_1_image name=unit_1_name url=unit_1_url }}
+		</container>
+		<container>
+			{{> reservation-details main_image=unit_1_image name=reservation_unit_name url=unit_1_url }}
+		</container>
+		<container>
+			{{> mobile-app-text-btn main_image=unit_1_image name=reservation_unit_name url=unit_1_url }}
+		</container>
+
+
+		{{> vacasa-footer }}
+
+
+	</body>
+</heml>

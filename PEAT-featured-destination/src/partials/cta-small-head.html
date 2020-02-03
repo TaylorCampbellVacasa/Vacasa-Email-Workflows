@@ -1,0 +1,36 @@
+<!-- {{{{raw-helper}}}} -->
+<container>
+	<row>
+		<column class="cta gutter text-center padding-b">
+			<h1>Explore {{ this.destinations.featured.0.name }}</h1>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter text-center padding-b-large">
+			<p class="sub-body">The perfect vacation starts with the&nbsp;perfect&nbsp;home.<br />
+				Find yours.</p>
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="cta gutter text-left padding-b-large">
+			<a href="https://www.vacasa.com{{{ this.destinations.featured.0.full_slug }}}?utm_campaign=featured_destinations&utm_campaignid=34&utm_uuid=None&utm_source=peat&utm_medium=email"
+				target="_blank">
+
+				<img infer="retina" width="556" src="{{{ this.destinations.featured.0.image }}}"
+					alt="Open new page to book {{ this.destinations.featured.0.name }} on Vacasa.com."></img>
+
+			</a>
+		</column>
+	</row>
+</container>
+<!-- {{{{/raw-helper}}}} -->
+<container>
+	<row>
+		<column class="gutter padding-b-large text-center">
+			{{> primary-button }}
+		</column>
+	</row>
+</container>

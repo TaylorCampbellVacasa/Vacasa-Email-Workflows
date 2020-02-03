@@ -1,0 +1,41 @@
+<container>
+	<row class="padding-b text-left">
+		<column large="6" small="12" class="section section-container-left">
+			<!-- raw-helper -->
+			<a href="{{ REGION_PUBLIC_FULL_URL }}" target="_blank">
+
+				<img class="side-image" width="268" src="{{ REGION_IMAGE_URL }}"
+					alt="Open new page to browse {{ REGION_REGION_DESCRIPTION }} on Vacasa.com."></img>
+				<!-- /raw-helper -->
+			</a>
+		</column>
+		<column large="6" small="12" class="section small-head section-container-right">
+			<!-- raw-helper -->
+			<h2>
+				<!--[if mso]>Try somewhere<br> different in<br> {{ REGION_REGION_DESCRIPTION }}<![endif]-->
+				<!--[if !mso]><!-->
+				Try somewhere different in {{ REGION_REGION_DESCRIPTION }}
+				<!--<![endif]-->
+			</h2>
+			<span class="sub-message">
+				<!--[if mso]>Looking to stay somewhere<br> different in {{ REGION_REGION_DESCRIPTION }}?<br> Check out some of our<br> other homes.<![endif]-->
+				<!--[if !mso]><!-->Looking to stay somewhere different in {{ REGION_REGION_DESCRIPTION }}? Check out some of
+				our other homes.
+				<!--<![endif]-->
+			</span>
+			<!-- /raw-helper -->
+			<!--[if mso]><br><br><![endif]-->
+			<!--[if !mso]><!-->
+			<div style="width:auto; margin: 16px auto 0;"></div>
+			<!--<![endif]-->
+			{{> secondary-button label="Book A New Home" url="{{ REGION_PUBLIC_FULL_URL }}" }}
+		</column>
+	</row>
+</container>
+<container>
+	<row class="padding-b">
+		<column>
+			<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:552px; height:1px;" />
+		</column>
+	</row>
+</container>

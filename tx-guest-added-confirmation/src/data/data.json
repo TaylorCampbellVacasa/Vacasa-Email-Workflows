@@ -1,0 +1,18 @@
+{
+  "rndr_template": false,
+  "city_name": "Place City",
+  "added_guest_name": "Real Person",
+  "reservation_id": "1FG86HP403",
+  "reservation_guest_full_name": "Real Guest",
+  "reservation_unit_name": "Rustic Star Retreat",
+  "reservation_check_in_date": "Thurs Jul 06, 4pm",
+  "reservation_check_out_date": "Sun Jul 10, 11am",
+  "address_line_one": "89200 E. Little Trail",
+  "address_line_two": "Government Camp, OR 97028",
+  "unit_1_url": "https://www.vacasa.com/unit.php?UnitID=19769&utm_campaign=BrowseNotBooked&utm_campaignid=2&utm_uuid=None&utm_source=peat&utm_medium=email",
+  "unit_1_image": "https://vacasa-units.imgix.net/1217056.jpg",
+  "unit_1_bed": 3,
+  "unit_1_bath": 2,
+  "unit_1_sleeps": 10,
+  "unit_1_price": 271
+}

@@ -1,0 +1,19 @@
+.four-box {
+  padding: 8px;
+}
+
+.four-box-name {
+  margin: 0;
+  color: #2c3439;
+  font-size: 16px;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  line-height: 24px;
+}
+
+.four-box-description {
+  margin: 0;
+  color: #707579;
+  font-size: 12px;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  line-height: 16px;
+}

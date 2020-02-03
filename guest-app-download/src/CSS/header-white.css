@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+  .wht-header-btn {
+    display: block !important;
+    width: 42% !important;
+  }
+  .wht-logo-container {
+    display: block !important;
+    width: 58% !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .wht-header-btn {
+    display: none !important;
+    width: 0 !important;
+  }
+  .wht-logo-container {
+    width: 100% !important;
+  }
+}
+
+.wht-header {
+  height: auto;
+}
+
+.wht-logo-container {
+  padding: 20px 20px 20px 24px;
+}
+
+.wht-header-btn {
+  padding: 18px 24px 18px 18px;
+}
+
+.wht-header .logo {
+  height: 24px;
+}
+
+span.header-white-btn-txt {
+  font-size: 12px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: right !important;
+  line-height: 20px;
+}

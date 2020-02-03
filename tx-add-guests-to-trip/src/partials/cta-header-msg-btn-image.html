@@ -1,0 +1,54 @@
+<!--[if mso]>
+<table border="0" cellpadding="0" cellspacing="0" width="600" class="cta table" role="presentation" align="center" bgcolor="#ffffff" style="word-wrap: normal; -ms-word-wrap: normal;"><tr width="600" align="left" class="tr tr"><td width="24" class="td td" style="width: 24px;"></td><td class="cta text-left small-head td" width="552" align="left" style="word-wrap: normal; -ms-word-wrap: normal; text-align: left;"><h1 class="white-header header h1" style="word-wrap: normal; max-width: 568px; height: auto; color: #2C3439; margin: 16px auto 0; font-family: 'Wigrum',Helvetica,Arial,sans-serif; font-size: 42px; font-weight: 700; letter-spacing: -.5px; line-height: 47px; margin-bottom: 24px; margin-top: 0; text-align: left;">You're going to Place City</h1><span class="sub-message" style="color: #2C3439; font-family: 'Nunito Sans',Arial,sans-serif; font-weight: 500; font-size: 18px; line-height: 24px;">Hi Real Person,<br><br>Real Guest added you as a guest for their upcoming trip to Rustic Star Retreat.</span></td><td width="24" class="td td" style="width: 24px;"></td></tr></table></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff" role="presentation" class="table table" style="padding: 0;"><tr width="600" height="24" bgcolor="#ffffff" class="tr tr"></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff" role="presentation" class="table table table" style="padding: 0;"><tr width="600" height="16" bgcolor="#ffffff" class="tr tr tr"><td width="24" class="td td"></td><td width="276" class="td td"><a href="https://www.vacasa.com/unit.php?UnitID&#x3D;19769&amp;utm_campaign&#x3D;BrowseNotBooked&amp;utm_campaignid&#x3D;2&amp;utm_uuid&#x3D;None&amp;utm_source&#x3D;peat&amp;utm_medium&#x3D;email" class="a a a" target="_blank" style="text-decoration: none; color: #003349;"><span class="a__text" style="text-decoration: none; color: #003349;"><span class="a__text" style="text-decoration: none; color: #003349;"><table role="presentation" width="276" align="center" border="0" cellspacing="0" cellpadding="0" class="button__table table table" style="width: 276px; margin: 0 auto;"><tr height="40" class="tr tr"><td align="center" class="button__cell td td" width="100%" bgcolor="#FFD00A" style="width: 100%; max-width: 276px; border-radius: 4px; border: 1px solid #FFD00A; background-color: #FFD00A;"><a href="https://www.vacasa.com/unit.php?UnitID&#x3D;19769&amp;utm_campaign&#x3D;BrowseNotBooked&amp;utm_campaignid&#x3D;2&amp;utm_uuid&#x3D;None&amp;utm_source&#x3D;peat&amp;utm_medium&#x3D;email" class="button__link a a" style="font-weight: 700; font-size: 16px; font-family: 'Nunito Sans',Arial,sans-serif; background-color: #FFD00A; display: inline-block; text-decoration: none; color: #003349;"><span class="a__text" style="text-decoration: none; color: #003349;"><span class="a__text" style="text-decoration: none; color: #003349;"><span class="button__text" style="color: #2C3439; text-decoration: none;">View Trip Details</span></span></span></a></td></tr></table></span></span></a></td><td width="276" class="td td"></td><td width="24" class="td td"></td></tr></table>
+<div style="mso-hide:all !important; display:none !important;">
+<![endif]-->
+
+
+
+<!--[if !mso]><!-->
+
+
+<row>
+	<column class="gutter cta text-left small-head">
+		<h1 class="white-header">You're going to {{ city_name }}</h1>
+
+		<span class="sub-message">
+			Hi {{ added_guest_name }},
+			<br /><br />
+			{{ reservation_guest_full_name }} added you as a guest for their upcoming trip to {{ reservation_unit_name }}.
+		</span>
+	</column>
+</row>
+
+
+<row class="gutter margin-t-large">
+	<column large="6" small="12" class="button text-center">
+		{{> primary-button label="View Trip Details" url=cabin_button_link }}
+	</column>
+	<column large="6" small="0"></column>
+</row>
+
+<!--<![endif]-->
+<!--[if mso]>
+		</div>    
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff" role="presentation" class="table" style="padding: 0;">
+						<tr width="600" height="24" bgcolor="#ffffff" class="tr"> </tr>
+					</table>
+<![endif]-->
+
+<row class="margin-b-small">
+	<column class="cta text-left small-head gutter">
+		<a href="{{ url }}" target="_blank">
+
+			<img infer="retina" width="556" src="{{ main_image }}?w=1112&ar=16:9&fit=crop&crop=entropy,edges"
+				alt="Open new page to book {{ name }} on Vacasa.com."></img>
+
+		</a>
+	</column>
+</row>
+
+<!--[if mso]>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff" role="presentation" class="table" style="padding: 0;">
+						<tr width="600" height="32" bgcolor="#ffffff" class="tr"> </tr>
+					</table>
+<![endif]-->

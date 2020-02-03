@@ -1,0 +1,43 @@
+<row class="reservation-details margin-b">
+	<column class="gutter text-left">
+		<h2 class="reservation-heading">Your Reservation #{{ reservation_id }}</h2>
+
+		<a href="{{ url }}" target="_blank">
+			<span class="reservation-unit-name">{{ name }}</span>
+			<p class="reservation-unit-address">
+				<!--raw-helper-->
+				{{ address_line_one }}<br />
+				{{ address_line_two }}
+				<!--/raw-helper-->
+			</p>
+		</a>
+	</column>
+</row>
+
+
+<!--[if mso]>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff" role="presentation" class="table" style="padding: 0;">
+						<tr width="600" height="16" bgcolor="#ffffff" class="tr"> </tr>
+					</table>
+<![endif]-->
+<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:552px; height:16px;" />
+
+<row class="reservation-details margin-b">
+	<column class="gutter" large="6" small="6">
+		<span class="check-in-out">Check-In</span>
+		<p class="reservation-unit-date">
+			<!--raw-helper-->
+			{{ reservation_check_in_date }}
+			<!--/raw-helper-->
+		</p>
+	</column>
+	<column class="gutter" large="6" small="6">
+		<span class="check-in-out">Check-Out</span>
+		<p class="reservation-unit-date">
+			<!--raw-helper-->
+			{{ reservation_check_out_date }}
+			<!--/raw-helper-->
+		</p>
+	</column>
+</row>
+<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:552px; height:1px;" />

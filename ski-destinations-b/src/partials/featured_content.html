@@ -1,0 +1,44 @@
+<container>
+	<row>
+		<column class="gutter-small">
+
+			<container>
+				<row>
+					{{#each featured_content}}
+						<!-- raw-helper -->
+						<a href="{{destination_url}}{{ utm_add }}" target="_blank" class="destination-card-link">
+							<h3 class="destination-card-name">
+								{{destination_name}}
+							</h3>
+							<img infer="retina" class="destination-card-image padding-b" src="{{destination_image}}" />
+							<p class="email-body padding-b-small">
+								{{destination_desc}}
+							</p>
+							<p class="email-body padding-b-small">
+								<strong>Closest ski resort:</strong> {{resort_name}}
+							</p>
+							<p class="email-body padding-b-small">
+								<strong>Lift Ticket Rates: </strong> {{lift_tickets}}
+							</p>
+							<p class="email-body padding-b-small">
+								<strong>Annual Snowfall:</strong> {{snowfall}}
+							</p>
+							<p class="email-body email-body-link">View {{view}} rentals
+							</p>
+						</a>
+						<!-- /raw-helper -->
+					{{/each}}
+				</row>
+			</container>
+
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="padding-b-large">
+			<!--pad-col-->
+		</column>
+	</row>
+</container>

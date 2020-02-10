@@ -1,0 +1,37 @@
+<container>
+	<row>
+		<column class="gutter">
+
+			<container>
+				<row>
+					{{#each four_box}}
+						<column class="four-box" large="3" small="6">
+							<!-- raw-helper -->
+							<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+								<img infer="retina" class="padding-b-small four-b-image" width="122"
+									src="{{{ image }}}?w=568&ar=1:1&fit=crop&crop=entropy,edges"
+									alt="Click to view and book {{ name }} on Vacasa.com" />
+								<p class="four-b-name">
+									{{ name }}
+								</p>
+								<p class="four-b-description">
+									{{ desc }}
+								</p>
+							</a>
+							<!-- /raw-helper -->
+						</column>
+					{{/each}}
+				</row>
+			</container>
+
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="padding-b">
+			<!--pad-col-->
+		</column>
+	</row>
+</container>

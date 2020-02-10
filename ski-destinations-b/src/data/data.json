@@ -1,0 +1,67 @@
+{
+  "rndr_template": false,
+  "rndr_headline": "Top Ski Destinations 2020",
+  "rndr_subhead": "Here are the best places for an unforgettable mountainside trip this winter",
+  "utm": "utm_source=peat&utm_medium=email&utm_campaign=ski_destinations-b",
+  "utm_add": "&utm_source=peat&utm_medium=email&utm_campaign=ski_destinations-b",
+  "utm_new": "?utm_source=peat&utm_medium=email&utm_campaign=ski_destinations-b",
+  "article_url": "https://www.vacasa.com/discover/best-ski-destinations-2020",
+  "category_url": "https://www.vacasa.com/discover/best-places-to-ski-2020/",
+  "article_banner": "http://vacasa-units.imgix.net/683162.jpg?&ar=4:2&fit=crop&crop=entropy,edges",
+  "featured_content_1": [
+    {
+      "destination_url": "https://www.vacasa.com/usa/Utah/Solitude",
+      "destination_name": "1. Solitude, UT",
+      "destination_image": "https://vacasa-units.imgix.net/767082.jpg?w=1112&q=45&ar=16:9&fit=crop&qcrop=entropy,edges",
+      "destination_desc": "Close to buzzing Park City, this aptly-named ski town offers stunning mountain scenery and fantastic snow conditions. If the trails at Solitude Mountain aren’t enough to satiate your skiing appetite, remember that you’re right on the doorstep of some of the highest-rated resorts in the world.",
+      "resort_name": "Solitude Mountain Resort",
+      "lift_tickets": "$$",
+      "snowfall": 222,
+      "view": "Solitude"
+    }
+  ],
+  "featured_content_2": [
+    {
+      "destination_url": "https://www.vacasa.com/usa/Montana/Big-Sky",
+      "destination_name": "2. Big Sky, MT",
+      "destination_image": "https://vacasa-units.imgix.net/1358539.jpg?w=536&q=45&ar=4:3&fit=crop&crop=entropy,edges",
+      "destination_desc": "Big Sky sits in a basin completely surrounded by mountain peaks. While the southern Montana resort town offers year-round recreation, it really shines in the winter months, with more than 400 inches of snowfall per year on average. ",
+      "resort_name": "Big Sky Resort",
+      "lift_tickets": "$$$",
+      "snowfall": 108,
+      "view": "Big Sky"
+    },
+    {
+      "destination_url": "https://www.vacasa.com/usa/Colorado/Silverthorne",
+      "destination_name": "3. Silverthorne, CO",
+      "destination_image": "https://vacasa-units.imgix.net/1381331.jpg?w=536&q=45&ar=4:3&fit=crop&crop=entropy,edges",
+      "destination_desc": "Nestled on the banks of Dillon Reservoir, Silverthorne is neighbor to a number of local ski resorts. The community is loaded with vacation rentals, so there are plenty of options for all group types. ",
+      "resort_name": "Keystone Resort",
+      "lift_tickets": "$$$",
+      "snowfall": 120,
+      "view": "Silverthorne"
+    }
+  ],
+  "featured_content_3": [
+    {
+      "destination_url": "https://www.vacasa.com/usa/Maine/Newry",
+      "destination_name": "4. Newry, ME",
+      "destination_image": "https://vacasa-units.imgix.net/630117.jpg?w=536&q=45&ar=4:3&fit=crop&crop=entropy,edges",
+      "destination_desc": "The quaint town of Newry, Maine is quickly becoming one of the most popular ski destinations in the U.S., due to its close proximity to Sunday River Ski Resort, a jewel in the northeast.",
+      "resort_name": "Sunday River Ski Resort",
+      "lift_tickets": "$$",
+      "snowfall": 57,
+      "view": "Sunday River"
+    },
+    {
+      "destination_url": "https://www.vacasa.com/usa/Vermont/Killington",
+      "destination_name": "5. Killington, VT",
+      "destination_image": "https://vacasa-units.imgix.net/1812403.jpg?w=536&q=45&ar=4:3&fit=crop&crop=entropy,edges",
+      "destination_desc": "Killington is renowned among New England skiers as one of the region’s best offerings, with 6 peaks for powder-heads to fawn over. Vermont’s beautiful Green Mountain range is ever in sight and sets the perfect backdrop to this gorgeous ski resort town.",
+      "resort_name": "Killington",
+      "lift_tickets": "$$$",
+      "snowfall": 99,
+      "view": "Killington"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<container>
+	{{#each featured_content_1}}
+		<!-- raw-helper -->
+		<a href="{{destination_url}}?utm_source=peat&utm_medium=email&utm_campaign=ski_destinations-b" target="_blank"
+			class="destination-card-link">
+			<row>
+				<column class="gutter padding-b-small">
+					<h3 class="destination-card-name">
+						{{destination_name}}
+					</h3>
+				</column>
+			</row>
+			<row>
+				<column class="gutter padding-b-large variable-lead-img-padding">
+					<img infer="retina" width="552" infer="retina" class="destination-card-image" src="{{destination_image}}" />
+				</column>
+			</row>
+			<row>
+				<column class="gutter padding-b-large variable-lead-text-padding">
+					<p class="email-body padding-b-small">
+						{{destination_desc}}<br />
+						<strong>Closest ski resort:</strong> {{resort_name}}<br />
+						<strong>Lift Ticket Rates: </strong> {{lift_tickets}}<br />
+						<strong>Annual Snowfall:</strong> {{snowfall}}"<br />
+						<span class="email-body-link"><strong>View {{view}} rentals</strong></span></p>
+				</column>
+			</row>
+			<!-- /raw-helper -->
+	{{/each}}
+
+
+	{{> basic-card-1 }}
+	{{> basic-card-2 }}

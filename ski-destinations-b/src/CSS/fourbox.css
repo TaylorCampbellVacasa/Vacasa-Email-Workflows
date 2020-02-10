@@ -1,0 +1,34 @@
+.four-box {
+  padding: 4px;
+}
+
+.four-box a p {
+  margin: 0;
+}
+
+.four-b-image {
+  -ms-interpolation-mode: bicubic;
+  border: none;
+  clear: both;
+  display: block;
+  outline: 0;
+  text-decoration: none;
+  width: auto;
+  max-width: 100%;
+}
+
+.four-b-name {
+  color: #2c3439;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.four-b-description {
+  color: #707579;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}

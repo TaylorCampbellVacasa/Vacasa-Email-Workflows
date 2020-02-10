@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+  .header-btn {
+    display: block !important;
+    width: 42% !important;
+  }
+  .logo-container {
+    display: block !important;
+    width: 58% !important;
+  }
+
+  .blu-header .tagline {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .header-btn {
+    display: none !important;
+    width: 0 !important;
+  }
+  .logo-container {
+    width: 100% !important;
+  }
+}
+
+.blu-header {
+  background-color: #003349;
+  background: #003349;
+}
+
+.blu-header.left-header {
+  padding: 20px 20px 20px 24px;
+}
+
+.blu-header.right-header {
+  padding: 24px 24px 24px 0px;
+}
+
+.blu-header .logo {
+  height: 24px;
+}
+
+.blu-header.right-header p.header-tagline {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0;
+}

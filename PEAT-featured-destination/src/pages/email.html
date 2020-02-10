@@ -15,9 +15,9 @@
 	<body>
 
 		{{> header }}
-		<!-- {{{{raw-helper}}}} -->
+		<!-- raw-helper -->
 		{{#each data}}
-			<!-- {{{{/raw-helper}}}} -->
+			<!-- /raw-helper -->
 
 			{{> cta-small-head image="{{ illustration_link }}" url="{{ location_url }}"
 			utm="{{ utms }}"
@@ -27,14 +27,14 @@
 				<row>
 					<column class="cta gutter text-center">
 						<h2 class="large-secondary padding-b-large">Featured
-							<!-- {{{{raw-helper}}}} -->{{ this.destinations.featured.0.name }} destinations
-							<!-- {{{{/raw-helper}}}} -->
+							<!-- raw-helper -->{{ this.destinations.featured.0.name }} destinations
+							<!-- /raw-helper -->
 							<!--[if mso]><br /><br /><![endif]-->
 						</h2>
 					</column>
 				</row>
 			</container>
-			<!-- {{{{raw-helper}}}} -->
+			<!-- raw-helper -->
 			{{#destinations.featured.0.recommended_cities }}
 				<container>
 					<row>
@@ -90,7 +90,7 @@
 
 
 		{{/each}}
-		<!-- {{{{/raw-helper}}}} -->
+		<!-- /raw-helper -->
 
 		{{> search }}
 

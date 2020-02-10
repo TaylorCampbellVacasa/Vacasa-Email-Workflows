@@ -1,0 +1,56 @@
+<container>
+	<row>
+		<column class="cta gutter text-left small-head padding-b">
+			<h1>Snow is falling<br />and cabins are&nbsp;calling</h1>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter text-left small-head padding-b">
+			<h2 class="sub">Give yourself the gift of a winter&nbsp;getaway</h2>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter text-left small-head padding-b">
+			<p class="sub-body">Good news! The unit you looked at is still availible for the same week next year.
+				Book now to
+				secure your Vacasa home for another great vacation.</p>
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="cta gutter text-left padding-b">
+			<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+
+				<img infer="retina" width="556" src="{{{ image }}}?w=1112"
+					alt="Open new page to book {{ name }} on Vacasa.com."></img>
+
+			</a>
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="cta gutter text-left padding-b main-unit-name ">
+			<a class="cta" href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+				<p class="unit-name">{{ name }}</p>
+				<p class="unit-attributes">
+					<!--raw-helper-->
+					{{ unit_1_bed }}&nbsp;Bed | {{ unit_1_bath }}&nbsp;Bath | Sleeps&nbsp;{{
+			unit_1_sleeps }}
+					<!--/raw-helper-->
+				</p>
+			</a>
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="gutter padding-b-large text-center">
+			{{> primary-button label="Find Your Winter Getaway" url=unit_1_url  b_utm=utm_add }}
+		</column>
+	</row>
+</container>

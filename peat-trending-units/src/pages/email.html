@@ -1,0 +1,102 @@
+<heml>
+
+	<head>
+		<preview>Book today on Vacasa.com</preview>
+
+		<!-- inject-style src="src/CSS/base.css" -->
+		<!-- inject-style src="src/CSS/header.css" -->
+		<!-- inject-style src="src/CSS/cta.css" -->
+		<!-- inject-style src="src/CSS/search.css" -->
+		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+		<!-- inject-style src="src/CSS/footer.css" -->
+		<!-- inject-style src="src/CSS/buttons.css" -->
+		<!-- inject-style src="src/CSS/basic-card.css" -->
+		<!-- inject-style src="src/CSS/mobile-app.css" -->
+		<!-- inject-style src="src/CSS/fourbox.css" -->
+		<!-- inject-style src="src/CSS/reservation-details.css" -->
+		<!-- inject-style src="src/CSS/header-white.css" -->
+		<!-- inject-style src="src/CSS/email-body.css" -->
+		<!-- inject-style src="src/CSS/section.css" -->
+	</head>
+
+	<body>
+		{{> header-white }}
+		{{> header-white-btn }}
+		{{> mobile-app-header }}
+
+
+		<!--delete this--> <br />
+		{{> header }}
+
+		{{> cta image=unit_1_image name=unit_1_name url=unit_1_url utm=utm }}
+		{{> cta-small-head image=unit_1_image name=unit_1_name url=unit_1_url utm=utm }}
+		{{> cta-header-msg-btn-image image=unit_1_image name=unit_1_name url=unit_1_url utm=utm }}
+		{{> cta-small-head-nosub image=unit_1_image name=unit_1_name url=unit_1_url utm=utm }}
+		{{> cta-head-name-img-txt-btn image=unit_1_image name=unit_1_name url=unit_1_url utm=utm }}
+		{{> cta-image-header-message-btn image=unit_1_image name=unit_1_name url=unit_1_url utm=utm }}
+
+		{{> body-text-left-button }}
+
+		{{> section-image-header-message-btn 
+			image=unit_3_image name=unit_1_name url=unit_1_url }}
+
+
+		<container>
+			{{> reservation-details name=reservation_unit_name url=unit_1_url }}
+			<!--delete this--> <br />
+		</container>
+
+
+		<container>
+			<row>
+				<column class="card-container-left" large="6" small="12">
+					{{> basic-card-1 }}
+				</column>
+				<column class="card-container-right" large="6" small="12">
+					{{> basic-card-2 }}
+				</column>
+			</row>
+			<row>
+				<column class="card-container-left" large="6" small="12">
+					{{> basic-card-3 }}
+				</column>
+				<column class="card-container-right" large="6" small="12">
+					{{> basic-card-4 }}
+				</column>
+			</row>
+			<row>
+				<!--pad-row-->
+				<column class="padding-b-large"></column>
+				<column></column>
+			</row>
+		</container>
+
+		<container>
+			<row>
+				<column class="gutter padding-b-large text-center">
+
+					{{> primary-button-slug label="Find Your Winter Paradise" url=unit_1_url b_utm=utm_add }}
+					<!--delete this--> <br /><br />
+					{{> primary-button label="Find Your Winter Getaway" url=unit_1_url b_utm=utm_add }}
+					<!--delete this--> <br /><br />
+					{{> secondary-button label="Find Your Winter Getaway" url=unit_1_url b_utm=utm_add }}
+
+				</column>
+			</row>
+		</container>
+
+		{{> four-box-row }}
+
+		<!--MobileAppStart-->
+		{{> mobile-app }}
+		<!--MobileAppEnd-->
+
+		{{> mobile-app-text-btn main_image=unit_1_image name=reservation_unit_name url=unit_1_url }}
+
+
+		{{> search }}
+
+
+		{{> vacasa-footer-devonly-nosend }}
+	</body>
+</heml>

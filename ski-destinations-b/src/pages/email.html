@@ -1,0 +1,34 @@
+<heml>
+
+	<head>
+		<preview>Here are the best places for an unforgettable mountainside trip this winter.</preview>
+
+		<!-- inject-style src="src/CSS/base.css" -->
+		<!-- inject-style src="src/CSS/header.css" -->
+		<!-- inject-style src="src/CSS/cta.css" -->
+		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+		<!-- inject-style src="src/CSS/buttons.css" -->
+		<!-- inject-style src="src/CSS/email-body.css" -->
+	</head>
+
+	<body>
+
+		{{> header }}
+
+		{{> post-header}}
+
+		{{> featured_content_2 }}
+		<container>
+			<row>
+				<column class="gutter padding-b-large padding-t-large text-center">
+					{{> primary-button label="More Top Destinations" url=category_url b_utm=utm_new }}
+				</column>
+			</row>
+		</container>
+		<container>
+			{{> vacasa-footer }}
+		</container>
+
+
+	</body>
+</heml>

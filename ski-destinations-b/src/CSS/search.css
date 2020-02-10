@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+  .search-top {
+    padding-top: 16px !important;
+  }
+  .search-bottom {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+    padding-bottom: 16px !important;
+  }
+}
+
+.search {
+  background: #003349;
+}
+
+.search-top {
+  background: #003349;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.search-bottom {
+  background: #003349;
+  padding-right: 64px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+
+.search-top h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: -0.82px;
+  line-height: 32px;
+  display: inline-block;
+}

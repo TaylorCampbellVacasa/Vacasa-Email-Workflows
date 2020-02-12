@@ -6,6 +6,22 @@
   .card-container-right {
     padding: 0px 24px 16px 24px !important;
   }
+
+  .fixed-card-container-right {
+    padding: 0px 16px 16px 6px !important;
+  }
+
+  .fixed-card-container-left {
+    padding: 0px 6px 16px 16px !important;
+  }
+
+  .location-card-name {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    font-size: 16px !important;
+    letter-spacing: initial !important;
+    line-height: 24px !important;
+  }
 }
 
 .card-container-left {
@@ -13,6 +29,14 @@
 }
 
 .card-container-right {
+  padding: 0px 24px 16px 8px;
+}
+
+.fixed-card-container-left {
+  padding: 0px 8px 16px 24px;
+}
+
+.fixed-card-container-right {
   padding: 0px 24px 16px 8px;
 }
 
@@ -32,7 +56,6 @@
   border: none;
   clear: both;
   display: block;
-  margin-bottom: 8px !important;
   outline: 0;
   text-decoration: none;
   width: auto;
@@ -54,6 +77,23 @@
   text-overflow: ellipsis !important;
   white-space: nowrap !important;
   word-wrap: normal;
+}
+
+.location-card-name {
+  margin: 0;
+  color: #2c3439 !important;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  word-wrap: normal;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
 }
 
 .unit-card-attributes {

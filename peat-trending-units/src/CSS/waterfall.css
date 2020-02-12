@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  .wf-name {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+  }
+}
+
+a.wf p.wf {
+  margin: 0;
+}
+
+.wf-container {
+  max-width: 288px;
+}
+
+.wf-img {
+  -ms-interpolation-mode: bicubic;
+  border: none;
+  clear: both;
+  display: block;
+  outline: 0;
+  text-decoration: none;
+  width: auto;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.wf-name {
+  color: #2c3439;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.wf-loc {
+  color: #707579;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}

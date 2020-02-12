@@ -9,6 +9,7 @@ const styleInject = require("gulp-style-inject");
 const htmlmin = require("gulp-htmlmin");
 const size = require("gulp-size");
 const replace = require("gulp-string-replace");
+const remove = require("gulp-email-remove-unused-css");
 
 function CSS() {
   return gulp
@@ -106,6 +107,25 @@ function minify() {
     .pipe(gulp.dest("dist/"));
 }
 
+function removeCSS() {
+  return gulp
+    .src("dist/index.html")
+    .pipe(
+      remove({
+        whitelist: [
+          ".ExternalClass",
+          ".ReadMsgBody",
+          ".yshortcuts",
+          ".Mso*",
+          ".maxwidth-apple-mail-fix",
+          "#outlook",
+          ".module-*"
+        ]
+      })
+    )
+    .pipe(gulp.dest("dist/"));
+}
+
 function fileSize() {
   console.log("Size after build:");
   return gulp
@@ -179,6 +199,6 @@ exports.design = gulp.series(
   rawRenderDesignPartials
 );
 
-exports.build = gulp.series(handlebars, CSS, heml, minify, fileSize);
+exports.build = gulp.series(handlebars, CSS, heml, minify, removeCSS, fileSize);
 
 exports.develop = gulp.series(handlebars, CSS, heml, server, watch);

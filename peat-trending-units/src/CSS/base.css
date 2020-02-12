@@ -1,11 +1,18 @@
 container {
   padding: 0px 0px;
-  /* max-width: 600px;; */
+  max-width: 640px;
+}
+
+div {
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #fbfbfc;
 }
 
 .responsive-container {
-  /* width: 600px; */
-  max-width: 600px;
+  max-width: 640px;
 }
 
 a {
@@ -40,28 +47,12 @@ a {
   padding-right: 24px;
 }
 
-.margin-t-large {
-  margin-top: 24px;
+.padding-t-huge {
+  padding-top: 40px;
 }
 
-.margin-t {
-  margin-top: 16px;
-}
-
-.margin-t-small {
-  margin-top: 8px;
-}
-
-.margin-b-large {
-  margin-bottom: 24px;
-}
-
-.margin-b {
-  margin-bottom: 16px;
-}
-
-.margin-b-small {
-  margin-bottom: 8px;
+.padding-t-xtra-large {
+  padding-top: 32px;
 }
 
 .padding-t-large {
@@ -76,6 +67,14 @@ a {
   padding-top: 8px;
 }
 
+.padding-b-huge {
+  padding-bottom: 40px;
+}
+
+.padding-b-xtra-large {
+  padding-bottom: 32px;
+}
+
 .padding-b-large {
   padding-bottom: 24px;
 }
@@ -88,13 +87,24 @@ a {
   padding-bottom: 8px;
 }
 
-.bottom-row {
-  margin-bottom: 16px;
+.left-col-item-xl {
+  padding-left: 48px;
+  padding-right: 8px;
 }
 
-.unsubscribe-row {
-  margin-top: 24px;
-  margin-bottom: 8px;
+.right-col-item-xl {
+  padding-left: 8px;
+  padding-right: 48px;
+}
+
+.left-col-item {
+  padding-left: 24px;
+  padding-right: 8px;
+}
+
+.right-col-item {
+  padding-left: 8px;
+  padding-right: 24px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -107,8 +117,39 @@ a {
     padding-right: 24px !important;
   }
 
+  .mobile-padding-med {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .mobile-padding-med-l {
+    padding-left: 16px !important;
+  }
+
+  .mobile-padding-med-r {
+    padding-right: 16px !important;
+  }
+
   .mobile-padding-small {
     padding-left: 8px !important;
     padding-right: 8px !important;
+  }
+
+  .mobile-padding-small-l {
+    padding-left: 8px !important;
+  }
+
+  .mobile-padding-small-r {
+    padding-right: 8px !important;
+  }
+
+  .fixed.left-col-item-xl,
+  .fixed.left-col-item {
+    padding-right: 4px !important;
+  }
+
+  .fixed.right-col-item-xl,
+  .fixed.right-col-item {
+    padding-left: 4px !important;
   }
 }

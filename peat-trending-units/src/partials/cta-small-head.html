@@ -1,29 +1,22 @@
 <container>
 	<row>
-		<column class="cta gutter text-left small-head padding-b">
-			<h1>Snow is falling<br />and cabins are&nbsp;calling</h1>
+		<column class="cta gutter mobile-padding-med text-left small-head padding-b">
+			<h1>Trending Destinations</h1>
 		</column>
 	</row>
 	<row>
-		<column class="cta gutter text-left small-head padding-b">
-			<h2 class="sub">Give yourself the gift of a winter&nbsp;getaway</h2>
-		</column>
-	</row>
-	<row>
-		<column class="cta gutter text-left small-head padding-b">
-			<p class="sub-body">Good news! The unit you looked at is still availible for the same week next year.
-				Book now to
-				secure your Vacasa home for another great vacation.</p>
+		<column class="cta gutter mobile-padding-med text-left padding-b-xtra-large">
+			<h2 class="sub">The most frequently desired destinations and homes, selected just for you</h2>
 		</column>
 	</row>
 </container>
 
 <container>
 	<row>
-		<column class="cta gutter text-left padding-b">
+		<column class="cta gutter mobile-padding-med text-left padding-b-small">
 			<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
 
-				<img infer="retina" width="556" src="{{{ image }}}?w=1112"
+				<img infer="retina" width="592" src="{{{ image }}}?w=1184&ar=2:1&fit=crop&crop=entropy,edges"
 					alt="Open new page to book {{ name }} on Vacasa.com."></img>
 
 			</a>
@@ -33,15 +26,14 @@
 
 <container>
 	<row>
-		<column class="cta gutter text-left padding-b main-unit-name ">
+		<column large="7" small="12" class="cta gutter text-left main-unit-name mobile-padding-med padding-b">
 			<a class="cta" href="{{{ url }}}{{{ utm_add }}}" target="_blank">
-				<p class="unit-name">{{ name }}</p>
 				<p class="unit-attributes">
 					<!--raw-helper-->
-					{{ unit_1_bed }}&nbsp;Bed | {{ unit_1_bath }}&nbsp;Bath | Sleeps&nbsp;{{
-			unit_1_sleeps }}
+					{{ location_1_num_units }} popular homes near
 					<!--/raw-helper-->
 				</p>
+				<p class="location-card-name">{{ name }}</p>
 			</a>
 		</column>
 	</row>
@@ -49,8 +41,45 @@
 
 <container>
 	<row>
-		<column class="gutter padding-b-large text-center">
-			{{> primary-button label="Find Your Winter Getaway" url=unit_1_url  b_utm=utm_add }}
+		<column class="cta gutter mobile-padding-med text-left padding-b-small">
+			<a href="{{{ location_2_url }}}{{{ utm_add }}}" target="_blank">
+
+				<img infer="retina" width="592" src="{{{ location_2_image }}}?w=1184&ar=2:1&fit=crop&crop=entropy,edges"
+					alt="Open new page to book {{ location_2_name }} on Vacasa.com."></img>
+
+			</a>
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="cta left-col-item text-left main-unit-name mobile-padding-med padding-b">
+			<a class="cta" href="{{{ location_2_url }}}{{{ utm_add }}}" target="_blank">
+				<p class="unit-attributes">
+					<!--raw-helper-->
+					{{ location_2_num_units }} popular homes near
+					<!--/raw-helper-->
+				</p>
+				<p class="location-card-name">{{ location_2_name }}</p>
+			</a>
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+
+		{{> fixed-basic-card-5 }}
+
+		{{> fixed-basic-card-6 }}
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="padding-b-large">
+			<hr style="border-top:0.5px solid #CCD6DB; width: 64%; max-width:552px; height:0.5px;" />
 		</column>
 	</row>
 </container>

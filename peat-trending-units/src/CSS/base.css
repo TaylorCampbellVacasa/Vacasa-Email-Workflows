@@ -143,6 +143,18 @@ a {
     padding-right: 8px !important;
   }
 
+  .mobile-pb-lg {
+    padding-bottom: 24px !important;
+  }
+
+  .mobile-pb {
+    padding-bottom: 16px !important;
+  }
+
+  .mobile-pb-small {
+    padding-bottom: 8px !important;
+  }
+
   .fixed.left-col-item-xl,
   .fixed.left-col-item {
     padding-right: 4px !important;

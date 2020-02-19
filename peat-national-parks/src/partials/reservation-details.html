@@ -1,0 +1,47 @@
+<container>
+	<row>
+		<column class="gutter padding-b text-left">
+			<h2 class="reservation-heading">Your Reservation #{{ reservation_id }}</h2>
+		</column>
+	</row>
+	<row>
+		<column class="gutter padding-b-small text-left">
+			<a href="{{{ url }}}" target="_blank">
+				<span class="reservation-unit-name">{{ name }}</span>
+			</a>
+		</column>
+	</row>
+	<row>
+		<column class="gutter padding-b-small text-left">
+			<a href="{{{ url }}}" target="_blank">
+				<p class="reservation-unit-address">
+					<!--raw-helper-->
+					{{ address_line_one }}<br />
+					{{ address_line_two }}
+					<!--/raw-helper-->
+				</p>
+			</a>
+		</column>
+	</row>
+</container>
+<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:552px; height:16px;" />
+
+<row class="reservation-details margin-b">
+	<column class="gutter" large="6" small="6">
+		<span class="check-in-out">Check-In</span>
+		<p class="reservation-unit-date">
+			<!--raw-helper-->
+			{{ reservation_check_in_date }}
+			<!--/raw-helper-->
+		</p>
+	</column>
+	<column class="gutter" large="6" small="6">
+		<span class="check-in-out">Check-Out</span>
+		<p class="reservation-unit-date">
+			<!--raw-helper-->
+			{{ reservation_check_out_date }}
+			<!--/raw-helper-->
+		</p>
+	</column>
+</row>
+<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:552px; height:1px;" />

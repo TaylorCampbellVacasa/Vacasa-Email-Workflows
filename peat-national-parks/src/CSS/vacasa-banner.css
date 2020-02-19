@@ -1,0 +1,93 @@
+.vacasa-banner {
+  padding: 24px 32px 0px 0px;
+}
+
+h3.vacasa-banner {
+  max-width: 361px;
+  height: auto;
+  margin-right: 0 !important;
+  padding: 0;
+  color: rgb(44, 52, 57);
+  font-size: 24px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.13px;
+  /* line-height: 40px; */
+  /* margin: 0px; */
+}
+
+h3.vacasa-banner-2 {
+  max-width: 361px;
+  height: auto;
+  margin: 0 0 16px 0 !important;
+  padding: 0;
+  color: rgb(44, 52, 57);
+  font-size: 21px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+}
+
+.vacasa-banner span {
+  max-width: 430px;
+  height: auto;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  /* margin: 0px; */
+}
+
+.vacasa-banner-2 span {
+  max-width: 430px;
+  height: auto;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 16px;
+  /* margin: 0px; */
+}
+
+.vacasa-banner img {
+  margin: 16px auto;
+}
+
+.vacasa-banner-image {
+  padding: 16px auto 16px 0;
+}
+
+.vacasa-banner-2 a {
+  color: #003349;
+}
+
+hr.vacasa-banner-2 {
+  border-top: 0.1px solid #ccd6db;
+  width: 20px;
+  mso-hide: all;
+}
+
+.vacasa-banner-logo {
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-hidden {
+    display: inline !important;
+  }
+  .vacasa-banner-2 img {
+    margin: 0 auto 16px auto !important;
+  }
+  h3.vacasa-banner-2 {
+    margin-top: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  hr.mobile-reveal {
+    display: none !important;
+    height: 0px !important;
+  }
+}

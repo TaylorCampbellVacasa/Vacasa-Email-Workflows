@@ -1,50 +1,58 @@
 <heml>
 
 	<head>
-		<preview>Book today on Vacasa.com</preview>
+		<preview>We love these trending getaways—and so will you</preview>
 
 		<!-- inject-style src="src/CSS/base.css" -->
 		<!-- inject-style src="src/CSS/header.css" -->
 		<!-- inject-style src="src/CSS/cta.css" -->
 		<!-- inject-style src="src/CSS/search.css" -->
 		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
-		<!-- inject-style src="src/CSS/buttons.css" -->
-		<!-- inject-style src="src/CSS/basic-card.css" -->
-		<!-- inject-style src="src/CSS/section.css" -->
 		<!-- inject-style src="src/CSS/waterfall.css" -->
 	</head>
 
 	<body>
-		{{> header }}
-
-		<container>
-			<row>
-				<column class="cta gutter mobile-padding-med text-center small-head padding-b">
-					<h1>Your next vacation is&nbsp;trending</h1>
-				</column>
-			</row>
-			<row>
-				<column class="cta gutter mobile-padding-med text-center padding-b-xtra-large">
-					<h2 class="sub">Check out our most popular destinations right now.</h2>
-				</column>
-			</row>
-		</container>
-
-
-		{{> image-waterfall-2 }}
-
-		{{> section-image-header-message-btn 
-			image=location_4_image name=location_4_name url=location_4_url }}
+		<!-- raw-helper -->{{#each data}}
+			<!-- /raw-helper -->
+			{{> header }}
 
 
 
+			<container>
+				<row>
+					<column class="cta gutter mobile-padding-small text-center small-head padding-b mobile-pb-small">
+						<h1>Your next vacation is&nbsp;trending</h1>
+					</column>
+				</row>
+				<row>
+					<column class="cta gutter mobile-padding-small text-center padding-b-xtra-large mobile-pb-lg">
+						<h2 class="sub">Check out our most popular destinations right now.</h2>
+					</column>
+				</row>
+			</container>
+
+			{{> image-waterfall }}
+
+
+
+			<container>
+				<row>
+					<column class="padding-b">
+						<!--pad-col-->
+					</column>
+				</row>
+			</container>
 
 
 
 
 
-		{{> search }}
 
+
+
+			{{> search }}
+			<!-- raw-helper -->
+		{{/each}}<!-- /raw-helper -->
 
 		{{> vacasa-footer }}
 	</body>

@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+  .dc-col-r {
+    padding-bottom: 16px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .dc-col-l {
+    padding-left: 16px !important;
+  }
+}
+
+.dc-container {
+  background-color: #003349;
+  border-radius: 2px 2px 0 0;
+  /*border-top: 2px solid #99adb6;*/
+}
+
+.dc-row {
+  background-color: #003349;
+}
+
+.dc-unit-container {
+  background-color: #f5f7f8;
+  border-top: 4px solid #ffad02;
+  border-bottom: 2px solid #99adb6;
+  border-radius: 0 0 2px 2px;
+}
+
+.dc-unit-row {
+  background-color: #f5f7f8;
+}
+
+.dc-col-l {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.dc-col-r {
+  border-top: none;
+}
+
+.dc-img {
+  width: 592px;
+  border-radius: 0 2px 0 0;
+}
+
+p.dc-preheader {
+  color: #ffffff;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+  line-height: 16px;
+  text-transform: uppercase;
+  word-wrap: none;
+  margin: 0;
+}
+
+h3.dc-loc-name {
+  color: #ffffff;
+  font-size: 21px;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+}

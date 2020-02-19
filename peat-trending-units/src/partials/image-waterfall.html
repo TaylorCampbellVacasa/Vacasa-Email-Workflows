@@ -3,96 +3,103 @@
 		<column large="6" small="6" class="fixed left-col-item mobile-padding-small-l padding-b">
 
 			<container class="wf-container">
-				<row>
-					<column class="wf padding-b-small">
-						<!-- raw-helper -->
-						<a href="{{{ unit_1_url }}}{{{ utm_add }}}" target="_blank">
-							<img infer="retina" class="wf-img" width="288"
-								src="{{{ unit_1_image }}}?w=576&ar=3:4&fit=crop&crop=entropy,edges"
-								alt="Click to view and book {{ unit_1_name }} on Vacasa.com" />
-					</column>
-				</row>
-				<row>
-					<column class="wf padding-b">
-						<p class="wf-name">
-							{{ unit_1_name }}
-						</p>
-						<p class="wf-loc">
-							{{ unit_1_location }}
-						</p>
-						</a>
-						<!-- /raw-helper -->
-					</column>
-				</row>
-				<row>
-					<column class="wf padding-b-small">
-						<!-- raw-helper -->
-						<a href="{{{ unit_2_url }}}{{{ utm_add }}}" target="_blank">
-							<img infer="retina" class="wf-img" width="288"
-								src="{{{ unit_2_image }}}?w=576&ar=4:3&fit=crop&crop=entropy,edges"
-								alt="Click to view and book {{ unit_2_name }} on Vacasa.com" />
-					</column>
-				</row>
-				<row>
-					<column class="wf padding-b">
-						<p class="wf-name">
-							{{ unit_2_name }}
-						</p>
-						<p class="wf-loc">
-							{{ unit_2_location }}
-						</p>
-						</a>
-						<!-- /raw-helper -->
-					</column>
-				</row>
+				<!-- raw-helper -->
+				{{#if this.destinations.trending.0.name}}
+					<row>
+						<column class="wf padding-b-small">
+
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.0.url }}}{{{ this.utms }}}" target="_blank">
+								<img infer="retina" class="wf-img" width="288"
+									src="{{{ this.destinations.trending.0.dest_imageid }}}?w=576&q=55&ar=4:3&fit=crop&crop=entropy,edges"
+									alt="Click to view and book {{ this.destinations.trending.0.name }} on Vacasa.com" /></a>
+						</column>
+					</row>
+					<row>
+						<column class="wf padding-b">
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.0.url }}}{{{ this.utms }}}" target="_blank">
+								<p class="wf-loc">
+									Explore {{ this.destinations.trending.0.active_unit_count }} homes in
+								</p>
+								<p class="wf-name">
+									{{ this.destinations.trending.0.name }}
+								</p>
+							</a>
+						</column>
+					</row>
+				{{/if}}
+				{{#if this.destinations.trending.2.name}}
+					<row>
+						<column class="wf padding-b-small">
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.2.url }}}{{{ this.utms }}}" target="_blank">
+								<img infer="retina" class="wf-img" width="288"
+									src="{{{ this.destinations.trending.2.dest_imageid }}}?w=576&q=55&ar=3:4&fit=crop&crop=entropy,edges"
+									alt="Click to view and book {{ this.destinations.trending.2.name }} on Vacasa.com" /></a>
+						</column>
+					</row>
+					<row>
+						<column class="wf padding-b">
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.2.url }}}{{{ this.utms }}}" target="_blank">
+								<p class="wf-loc">
+									Explore {{ this.destinations.trending.2.active_unit_count }} homes in
+								</p>
+								<p class="wf-name">
+									{{ this.destinations.trending.2.name }}
+								</p>
+							</a>
+						</column>
+					</row>
+				{{/if}}
 			</container>
 
 		</column>
 		<column large="6" small="6" class="fixed right-col-item mobile-padding-small-r padding-b">
 
 			<container class="wf-container">
-				<row>
-					<column class="wf padding-b-small">
-						<!-- raw-helper -->
-						<a href="{{{ unit_3_url }}}{{{ utm_add }}}" target="_blank">
-							<img infer="retina" class="wf-img" width="288"
-								src="{{{ unit_3_image }}}?w=576&ar=5:4&fit=crop&crop=entropy,edges"
-								alt="Click to view and book {{ unit_3_name }} on Vacasa.com" />
-					</column>
-				</row>
-				<row>
-					<column class="wf padding-b">
-						<p class="wf-name">
-							{{ unit_3_name }}
-						</p>
-						<p class="wf-loc">
-							{{ unit_3_location }}
-						</p>
-						</a>
-						<!-- /raw-helper -->
-					</column>
-				</row>
-				<row>
-					<column class="wf padding-b-small">
-						<!-- raw-helper -->
-						<a href="{{{ unit_4_url }}}{{{ utm_add }}}" target="_blank">
-							<img infer="retina" class="wf-img" width="288"
-								src="{{{ unit_4_image }}}?w=576&ar=2.2:3&fit=crop&crop=entropy,edges"
-								alt="Click to view and book {{ unit_4_name }} on Vacasa.com" />
-					</column>
-				</row>
-				<row>
-					<column class="wf padding-b-small">
-						<p class="wf-name">
-							{{ unit_4_name }}
-						</p>
-						<p class="wf-loc">
-							{{ unit_4_location }}
-						</p>
-						</a>
-						<!-- /raw-helper -->
-					</column>
-				</row>
+				{{#if this.destinations.trending.1.name}}
+					<row>
+						<column class="wf padding-b-small">
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.1.url }}}{{{ this.utms }}}" target="_blank">
+								<img infer="retina" class="wf-img" width="288"
+									src="{{{ this.destinations.trending.1.dest_imageid }}}?w=576&q=55&ar=2:3&fit=crop&crop=entropy,edges"
+									alt="Click to view and book {{ this.destinations.trending.1.name }} on Vacasa.com" /></a>
+						</column>
+					</row>
+					<row>
+						<column class="wf padding-b">
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.1.url }}}{{{ this.utms }}}" target="_blank">
+								<p class="wf-loc">
+									Explore {{ this.destinations.trending.1.active_unit_count }} homes in
+								</p>
+								<p class="wf-name">
+									{{ this.destinations.trending.1.name }}
+								</p>
+							</a>
+						</column>
+					</row>
+				{{/if}}
+				{{#if this.destinations.trending.3.name}}
+					<row>
+						<column class="wf padding-b-small">
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.3.url }}}{{{ this.utms }}}" target="_blank">
+								<img infer="retina" class="wf-img" width="288"
+									src="{{{ this.destinations.trending.3.dest_imageid }}}?w=576&q=55&ar=5:4&fit=crop&crop=entropy,edges"
+									alt="Click to view and book {{ this.destinations.trending.3.name }} on Vacasa.com" /></a>
+						</column>
+					</row>
+					<row>
+						<column class="wf padding-b-small">
+							<a href="https://www.vacasa.com{{{ this.destinations.trending.3.url }}}{{{ this.utms }}}" target="_blank">
+								<p class="wf-loc">
+									Explore {{ this.destinations.trending.3.active_unit_count }} homes in
+								</p>
+								<p class="wf-name">
+									{{ this.destinations.trending.3.name }}
+								</p>
+							</a>
+
+						</column>
+					</row>
+				{{/if}}<!-- /raw-helper -->
 			</container>
 
 		</column>

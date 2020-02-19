@@ -1,0 +1,149 @@
+@media only screen and (max-width: 600px) {
+  .pop-down {
+    display: initial !important;
+  }
+
+  .pop-out-mobile {
+    display: initial !important;
+    background-color: #ffe700;
+    color: #000000;
+    padding-top: 8px;
+  }
+
+  .mobile-app-header.app-header {
+    font-size: 28px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.2px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .mobile-app-right {
+    padding: 0 !important;
+  }
+
+  .mobile-app-left {
+    padding-right: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero-background-image {
+    background-image: none !important;
+  }
+}
+
+.mobile-app-left {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+
+.mobile-app-right {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+.hero-background-image {
+  background-image: url("https://lh3.google.com/u/0/d/1lleS0xGBFIWqA4gs3ENsPXTpLqDE71dz=w3360-h1878-iv2");
+  background-color: #003349;
+  height: auto;
+  width: 100%;
+  max-width: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobile-app {
+  word-wrap: normal;
+  -ms-word-wrap: normal;
+  color: #ffffff;
+}
+
+.prehead {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.app-header.prehead {
+  margin-bottom: 8px;
+}
+
+.mobile-app-header {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-size: 34px;
+  line-height: 36px;
+  letter-spacing: initial;
+  color: #ffffff;
+}
+
+.mobile-app-header.text-only-section {
+  margin-top: 16px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2c3439;
+}
+
+.mobile-app p.mobile-app-copy {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.mobile-app p.mobile-app-copy.text-only-section {
+  font-size: 18px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2c3439;
+  margin-bottom: 0;
+}
+
+.mobile-app p.mobile-app-copy.app-header {
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+.mobile-app-apple-link-btn {
+  margin-right: 8px;
+}
+
+.full-width-app-image img {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.pop-down {
+  display: none;
+  background-color: #ffe700;
+  color: #000000;
+  padding-top: 24px;
+}
+
+.pop-out-mobile {
+  display: none;
+  background-color: #ffe700;
+  color: #000000;
+  padding-top: 8px;
+}
+
+.pop-out-mobile img {
+  margin-right: auto;
+  height: auto;
+  max-height: 60px;
+  min-height: 30px;
+  width: auto;
+}
+
+.pop-down.app-header {
+  padding-top: 8px;
+  padding-bottom: 0;
+}

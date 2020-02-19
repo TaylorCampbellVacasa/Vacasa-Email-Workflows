@@ -40,6 +40,34 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .cta h1 {
+    font-size: 28px !important;
+    letter-spacing: -0.5px !important;
+    line-height: 36px !important;
+  }
+
+  .cta h2.sub {
+    font-size: 16px !important;
+    letter-spacing: initial !important;
+    line-height: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .cta h1 {
+    font-size: 21px !important;
+    letter-spacing: -0.2px !important;
+    line-height: 28px !important;
+  }
+
+  .cta h2.sub {
+    font-size: 16px !important;
+    letter-spacing: initial !important;
+    line-height: 24px !important;
+  }
+}
+
 .cta h1,
 h2,
 p,

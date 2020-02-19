@@ -1,0 +1,36 @@
+<container>
+	<row>
+		<column class="cta gutter padding-b-large text-left small-head">
+			<h1>You're going to {{ city_name }}</h1>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter padding-b-large">
+			<p class="sub-message">
+				Hi {{ added_guest_name }},
+				<br /><br />
+				{{ reservation_guest_full_name }} added you as a guest for their upcoming trip to {{ reservation_unit_name }}.
+			</p>
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column large="6" small="12" class="button text-center cta-left-btn padding-b-large">
+			{{> primary-button-side label="View Trip Details" url=unit_1_url b_utm=utm_add}}
+		</column>
+		<column large="6" small="0"></column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="cta gutter padding-b">
+			<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+				<img infer="retina" width="556" src="{{{ image }}}?w=1112&ar=16:9&fit=crop&crop=entropy,edges"
+					alt="Open new page to book {{ name }} on Vacasa.com."></img>
+			</a>
+		</column>
+	</row>
+</container>

@@ -1,0 +1,43 @@
+<container>
+	<row>
+		<column class="cta gutter padding-b text-left">
+			<h1 class="sma;;-head">Share the excitement with your&nbsp;guests</h1>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter padding-b-small text-left">
+			<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+				<!-- raw-helper -->
+				<p class="unit-name">{{ reservation_unit_name }}</p>
+				<!-- /raw-helper -->
+			</a>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter padding-b">
+			<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+				<!-- raw-helper -->
+				<img infer="retina" width="556" src="{{{ image }}}?w=1112&ar=2:1&fit=crop&crop=entropy,edges"
+					alt="Open a new page to add guest to your trip to {{ name }}."></img>
+				<!-- /raw-helper -->
+			</a>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter padding-b-large text-left">
+			<!-- raw-helper -->
+			<p class="sub-message">Let your guests know that it's almost time to start packing for
+				{{ city }}. Once added, they'll receive the details of your upcoming trip.</p>
+			<!-- /raw-helper -->
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column large="6" small="12" class="cta-left-btn padding-b-large text-center">
+			{{> primary-button-side label="Add Guests" url=unit_1_url b_utm=utm_add }}
+		</column>
+		<column large="6" small="0"></column>
+	</row>
+</container>

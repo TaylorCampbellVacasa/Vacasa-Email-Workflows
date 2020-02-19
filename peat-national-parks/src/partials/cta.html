@@ -1,0 +1,25 @@
+<container>
+	<row>
+		<column class="cta gutter padding-b">
+			<h1 class="small-head">{{ name }} units are filling fast</h1>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter padding-b">
+			<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+				<img infer="retina" width="556" src="{{{ image }}}?w=1112&ar=2:1&fit=crop&crop=entropy,edges"
+					alt="Open new page to book {{ name }} on Vacasa.com."></img>
+			</a>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter padding-b">
+			<p class="sub-message">{{ name }} is super neat</p>
+		</column>
+	</row>
+	<row>
+		<column class="cta gutter padding-b-large">
+			{{> primary-button label="Book Soon" link=unit_1_url b_utm=utm_add }}
+		</column>
+	</row>
+</container>

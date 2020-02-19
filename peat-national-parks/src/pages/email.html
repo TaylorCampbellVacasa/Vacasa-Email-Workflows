@@ -1,0 +1,56 @@
+<heml>
+
+	<head>
+		<preview>Book today on Vacasa.com</preview>
+
+		<!-- inject-style src="src/CSS/base.css" -->
+		<!-- inject-style src="src/CSS/header.css" -->
+		<!-- inject-style src="src/CSS/cta.css" -->
+		<!-- inject-style src="src/CSS/search.css" -->
+		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+		<!-- inject-style src="src/CSS/fourbox.css" -->
+		<!-- inject-style src="src/CSS/destination-card.css" -->
+	</head>
+
+	<body>
+		{{> header }}
+		{{> cta-small-head }}
+
+		{{#each destinations.national_parks }}
+			{{> destination-card-2 name=park_name image=cityimage }}
+
+			<container>
+				<row>
+					<column class="four-b-gutter mobile-padding-med padding-b-huge">
+						<container>
+							<row class="dc-unit-container padding-t">
+								{{#each this.recommended_units}}
+									<column class="four-box padding-b-small col-12-xs" large="3" small="6">
+										<!-- raw-helper -->
+										<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+											<img infer="retina" class="padding-b-small four-b-image" width="142"
+												src="{{{ image }}}?vib=20&w=505&q=15&ar=4:3&fit=crop&crop=entropy,edges"
+												alt="Click to view and book {{ name }} on Vacasa.com" />
+											<p class="four-b-name">
+												{{ name }}
+											</p>
+											<p class="four-b-description">
+												{{ desc }}
+											</p>
+										</a>
+										<!-- /raw-helper -->
+									</column>
+								{{/each}}
+							</row>
+						</container>
+
+					</column>
+				</row>
+			</container>
+		{{/each}}
+
+
+
+		{{> vacasa-footer	 }}
+	</body>
+</heml>

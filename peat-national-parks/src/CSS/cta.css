@@ -12,7 +12,7 @@
   .cta h1 {
     font-size: 38px !important;
     letter-spacing: -0.5px !important;
-    line-height: 38px !important;
+    line-height: 42px !important;
   }
 
   .cta h2 {
@@ -40,6 +40,34 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .cta h1 {
+    font-size: 28px !important;
+    letter-spacing: -0.5px !important;
+    line-height: 36px !important;
+  }
+
+  .cta h2.sub {
+    font-size: 16px !important;
+    letter-spacing: initial !important;
+    line-height: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .cta h1 {
+    font-size: 21px !important;
+    letter-spacing: -0.2px !important;
+    line-height: 28px !important;
+  }
+
+  .cta h2.sub {
+    font-size: 16px !important;
+    letter-spacing: initial !important;
+    line-height: 24px !important;
+  }
+}
+
 .cta h1,
 h2,
 p,
@@ -51,7 +79,7 @@ a {
 .cta h1,
 h2 {
   color: #2c3439;
-  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -83,6 +111,7 @@ h2 {
   font-size: 21px;
   letter-spacing: -0.2px;
   line-height: 28px;
+  font-weight: 400;
 }
 
 .cta p.sub-body {

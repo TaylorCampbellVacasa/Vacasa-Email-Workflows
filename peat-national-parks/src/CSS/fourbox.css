@@ -19,6 +19,10 @@
   }
 }
 
+.outlook-fourb {
+  max-width: 592px;
+}
+
 .four-box {
   padding-left: 8px;
   padding-right: 8px;
@@ -49,6 +53,7 @@
   font-size: 12px;
   line-height: 16px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .four-b-description {

@@ -187,6 +187,13 @@ function rawRenderDesignPartials() {
     .pipe(gulp.dest("src/data/"));
 }
 
+function fixInlineAll() {
+  return gulp
+    .src(["dist/index.html"])
+    .pipe(replace(/\* {/, "h1, h2, h3, p, span, a {"))
+    .pipe(gulp.dest("dist/"));
+}
+
 exports.template = gulp.series(
   rawOnEmail,
   rawOnPartials,
@@ -199,7 +206,15 @@ exports.design = gulp.series(
   rawRenderDesignPartials
 );
 
-exports.build = gulp.series(handlebars, CSS, heml, minify, removeCSS, fileSize);
+exports.build = gulp.series(
+  handlebars,
+  CSS,
+  heml,
+  minify,
+  removeCSS,
+  fixInlineAll,
+  fileSize
+);
 exports.oldBuild = gulp.series(handlebars, CSS, heml, minify, fileSize);
 
 exports.develop = gulp.series(handlebars, CSS, heml, server, watch);

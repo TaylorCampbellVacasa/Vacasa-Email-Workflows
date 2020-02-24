@@ -1,3 +1,8 @@
+@media only screen and (max-width: 645px) {
+  .dc-col-l {
+    height: unset !important;
+  }
+}
 @media only screen and (max-width: 600px) {
   .dc-col-r {
     padding-bottom: 16px !important;
@@ -7,23 +12,32 @@
   .dc-col-l {
     padding-left: 16px !important;
   }
+  .dc-img {
+    width: 592px !important;
+    border-radius: 0 !important;
+  }
+}
+
+.outlook-d-card {
+  max-width: 592px;
 }
 
 .dc-container {
-  background-color: #003349;
-  border-radius: 2px 2px 0 0;
+  background-color: #1a475b;
+  border-top: 4px solid #ffad02;
+  border-radius: 4px 4px 0 0;
   /*border-top: 2px solid #99adb6;*/
 }
 
 .dc-row {
-  background-color: #003349;
+  background-color: #1a475b;
 }
 
 .dc-unit-container {
   background-color: #f5f7f8;
-  border-top: 4px solid #ffad02;
+
   border-bottom: 2px solid #99adb6;
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 4px 4px;
 }
 
 .dc-unit-row {
@@ -33,6 +47,7 @@
 .dc-col-l {
   padding-left: 8px;
   padding-right: 8px;
+  height: 89.83px;
 }
 
 .dc-col-r {
@@ -40,11 +55,10 @@
 }
 
 .dc-img {
-  width: 592px;
-  border-radius: 0 2px 0 0;
+  border-radius: 0 4px 0 0;
 }
 
-p.dc-preheader {
+span.dc-preheader {
   color: #ffffff;
   font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -54,13 +68,24 @@ p.dc-preheader {
   text-transform: uppercase;
   word-wrap: none;
   margin: 0;
+  display: block;
 }
 
-h3.dc-loc-name {
+span.dc-loc-name {
   color: #ffffff;
   font-size: 21px;
   font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
   font-weight: bold;
   letter-spacing: -0.2px;
   line-height: 28px;
+  display: inline;
+}
+
+span.link-arrow {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 22px;
+  vertical-align: text-bottom;
+  display: inline;
 }

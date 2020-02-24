@@ -1,7 +1,7 @@
 <heml>
 
 	<head>
-		<preview>Book today on Vacasa.com</preview>
+		<preview>Find the perfect vacation home just minutes away from awe-inspiring national parks</preview>
 
 		<!-- inject-style src="src/CSS/base.css" -->
 		<!-- inject-style src="src/CSS/header.css" -->
@@ -13,44 +13,50 @@
 	</head>
 
 	<body>
-		{{> header }}
-		{{> cta-small-head }}
-
-		{{#each destinations.national_parks }}
-			{{> destination-card-2 name=park_name image=cityimage }}
-
-			<container>
-				<row>
-					<column class="four-b-gutter mobile-padding-med padding-b-huge">
-						<container>
-							<row class="dc-unit-container padding-t">
-								{{#each this.recommended_units}}
-									<column class="four-box padding-b-small col-12-xs" large="3" small="6">
-										<!-- raw-helper -->
-										<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
-											<img infer="retina" class="padding-b-small four-b-image" width="142"
-												src="{{{ image }}}?vib=20&w=505&q=15&ar=4:3&fit=crop&crop=entropy,edges"
-												alt="Click to view and book {{ name }} on Vacasa.com" />
-											<p class="four-b-name">
-												{{ name }}
-											</p>
-											<p class="four-b-description">
-												{{ desc }}
-											</p>
-										</a>
-										<!-- /raw-helper -->
-									</column>
-								{{/each}}
-							</row>
-						</container>
-
-					</column>
-				</row>
-			</container>
-		{{/each}}
+		<!-- {{{{raw-helper}}}} -->{{#each data}}
+			<!-- {{{{/raw-helper}}}} -->
 
 
+			{{> header }}
+			{{> cta-small-head }}
 
+			<!-- {{{{raw-helper}}}} -->{{#this.recommendations.national_parks }}
+				<!-- {{{{/raw-helper}}}} -->
+				{{> destination-card-2 name="{{park_name}}" image="{{{cityimage}}}" url="{{{url}}}"
+				utm="{{{@root.data.0.utms}}}" }}
+
+				<container>
+					<row>
+						<column class="four-b-gutter mobile-padding-med padding-b-huge">
+							<container class="outlook-fourb">
+								<row class="dc-unit-container padding-t" style="background: #f5f7f8;">
+									<!-- {{{{raw-helper}}}} -->{{#this.recommended_units}}
+										<column class="four-box padding-b-small col-12-xs" large="3" small="6" style="background: #f5f7f8;">
+
+											<a href="https://www.vacasa.com{{{ attributes.city_url }}}{{{ @root.data.0.utms }}}"
+												target="_blank">
+												<img infer="retina" class="padding-b-small four-b-image" width="132"
+													src="https:{{{ attributes.photos_list.[0] }}}?vib=20&w=505&q=15&ar=4:3&fit=crop&crop=entropy,edges"
+													alt="Click to view and book {{ attributes.name }} on Vacasa.com" />
+												<p class="four-b-name">
+													{{ attributes.name }}
+												</p>
+												<p class="four-b-description">
+													{{ attributes.city_name }}
+												</p>
+											</a>
+
+										</column>
+									{{/this.recommended_units}}
+								</row>
+							</container>
+
+						</column>
+					</row>
+				</container>
+			{{/this.recommendations.national_parks}}
+
+		{{/each}}<!-- {{{{/raw-helper}}}} -->
 		{{> vacasa-footer	 }}
 	</body>
 </heml>

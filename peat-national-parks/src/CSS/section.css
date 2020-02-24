@@ -32,7 +32,7 @@ img {
 .section h2 {
   color: #2c3439;
   font-size: 21px;
-  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
   font-weight: bold;
   letter-spacing: -0.5px;
   line-height: 28px;
@@ -43,7 +43,7 @@ img {
   height: auto;
   color: #2c3439;
   font-size: 21px;
-  font-family: "Wigrum", Helvetica, Arial, sans-serif;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
   font-weight: bold;
   letter-spacing: -0.2px;
   line-height: 28px;

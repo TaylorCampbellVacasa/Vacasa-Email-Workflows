@@ -1,0 +1,88 @@
+<container class="res-info-pane" style="background: #ffffff;">
+	<row style="background: #f8f9f9;" class="res-info-pane top-row">
+		<column large="2" small="0" class="left-panel-item dis-none-sm padding-t-large"> <img infer="retina"
+				src="https://vacasa-units.imgix.net/{{{ UNIT_PRIMARY_IMAGE_ID }}}.jpg?w=168&mask=corners&corner-radius=10,10,10,10&ar=1:1&fit=crop&crop=entropy,edges"
+				alt="">
+		</column>
+		<column large="4" small="6" class="left-panel-item padding-t-large padding-b">
+			<span class="info-prehead up-case">Check in</span>
+
+			<p class="reservation-info-value">
+				<!-- raw-helper -->
+				{{date RESERVATION_FIRST_NIGHT "ddd MMM D" datejs=false }}<br>
+				<span class="info-subhead">{{date UNIT_CHECK_IN_TIME "h:mm a" }}</span>
+				<!-- /raw-helper -->
+			</p>
+
+		</column>
+		<column large="1" small="0" class="padding-b dis-none-sm text-center icon-col">
+			<img class="icon" src="http://vacasa-email.imgix.net/carret.png?h=63" alt="">
+		</column>
+		<column large="4" small="6" class="right-panel-item padding-t-large padding-b text-right">
+			<span class="info-prehead up-case">Check out</span>
+
+			<p class="reservation-info-value">
+				<!-- raw-helper -->
+				{{date RESERVATION_LAST_NIGHT "ddd MMM D" datejs=false }}<br>
+				<span class="info-subhead">{{date UNIT_CHECK_OUT_TIME "h:mm a" }}</span>
+				<!-- /raw-helper -->
+			</p>
+
+		</column>
+		<column large="1" small="0">
+		</column>
+	</row>
+</container>
+
+<container class="res-info-pane">
+	<row style="background: #f8f9f9;">
+		<column large="2" small="0"></column>
+		<column large="9" small="12" class="panel-item text-center" style="padding-top: 12px;s">
+			<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:600px; height:1px;" />
+		</column>
+		<column large="1" small="0">
+			<img class="link-icon" src="http://vacasa-email.imgix.net/external-link.png?h=24" alt="">
+		</column>
+
+	</row>
+</container>
+
+<container class="res-info-pane" style="background: #ffffff;">
+	<row style="background: #f8f9f9;" class="res-info-pane bottom-row">
+		<column large="2" small="0" class="left-panel-item dis-none-sm padding-t-large padding-b-large"></column>
+		<column large="4" small="6" class="left-panel-item padding-t-large padding-b-large">
+			<span class="info-prehead up-case">Guests</span>
+
+			<p class="reservation-info-value">
+				<!-- raw-helper -->
+				{{ RESERVATION_ADULTS }} adult{{#isnt RESERVATION_ADULTS 1}}s{{/isnt}}, {{ RESERVATION_CHILDREN }}
+				child{{#isnt RESERVATION_CHILDREN 1}}ren{{/isnt}}<br>
+				<span class="info-subhead">{{ RESERVATION_PETS }} dog{{#isnt RESERVATION_PETS 1}}s{{/isnt}}</span>
+				<!-- /raw-helper -->
+			</p>
+
+		</column>
+		<column large="1" small="0" class="padding-b-large dis-none-sm icon-col">
+			<img class="icon" src="http://vacasa-email.imgix.net/v-line.png?h=52" alt="">
+		</column>
+		<column large="4" small="6" class="right-panel-item padding-t-large padding-b-large text-right">
+			<span class="info-prehead up-case">Confirmation</span>
+
+			<p class="reservation-info-value lrg">
+				<!-- raw-helper -->
+				{{ RESERVATION_ID }}
+				<!-- /raw-helper -->
+			</p>
+
+		</column>
+		<column large="1" small="0">
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="padding-b-huge">
+		</column>
+	</row>
+</container>

@@ -1,6 +1,9 @@
 {
   "data": [
     {
+      "personal_data": {
+        "new_to_brand": true
+      },
       "recommendations": {
         "trending": [
           {

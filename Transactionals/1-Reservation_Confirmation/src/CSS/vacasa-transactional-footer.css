@@ -1,0 +1,77 @@
+h3.vacasa-banner {
+  margin: 0;
+  color: #2c3439;
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+p.vacasa-banner {
+  margin: 0;
+  height: auto;
+  color: #373737;
+  font-size: 14px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+a.vacasa-banner {
+  color: #4d7080;
+}
+
+.unsubscribe-preferences-container {
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.social-icon {
+  display: inline;
+}
+
+.social-icon.padding-right {
+  display: inline;
+  padding-right: 36px;
+}
+
+p.privacy-terms {
+  color: #004d70;
+  font-size: 14px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  line-height: 20px;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+p.footer-address {
+  color: #707579;
+  font-size: 14px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  line-height: 20px;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  h3.vacasa-banner {
+    font-size: 21px !important;
+    letter-spacing: -0.2px !important;
+    line-height: 28px !important;
+  }
+  p.vacasa-banner {
+    font-size: 12px !important;
+    letter-spacing: -0.2px !important;
+    line-height: 16px !important;
+  }
+  p.footer-address {
+    font-size: 12px !important;
+    letter-spacing: -0.2px !important;
+    line-height: 16px !important;
+  }
+  p.privacy-terms {
+    font-size: 12px !important;
+    letter-spacing: -0.2px !important;
+    line-height: 16px !important;
+  }
+}

@@ -9,12 +9,105 @@
 		<!-- inject-style src="src/CSS/search.css" -->
 		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
 		<!-- inject-style src="src/CSS/waterfall.css" -->
+		<style>
+			.ntb.background-dark {
+				background-color: #003349;
+			}
+
+			.intro-logo {
+				display: block;
+				margin: 0 auto;
+				padding-top: 16px;
+			}
+
+			.intro.gutter {
+				padding-left: 12px;
+				padding-right: 12px;
+			}
+
+			.ntb.padding-t {
+				padding-top: 12px;
+			}
+
+			.ntb.padding-b {
+				padding-bottom: 12px;
+			}
+
+			.border-soft {
+				border-radius: 3px;
+			}
+
+			.intro.text-left {
+				text-align: left;
+			}
+
+			.intro h1 {
+				font-family: "Nunito Sans", Arial, sans-serif;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 1.3;
+				text-decoration: none;
+				margin: 10px 0;
+			}
+
+			.text-light {
+				color: #FFFFFF;
+			}
+
+			.intro p.ntb {
+				font-family: "Nunito Sans", Arial, sans-serif;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.3;
+				text-decoration: none;
+				padding-top: 12px;
+				margin: 0;
+			}
+		</style>
+		<style heml-ignore>
+			@media (min-width:500px) {
+				.padding-extra {
+					padding-left: 32px;
+					padding-right: 32px;
+				}
+
+				.intro.gutter {
+					padding-left: 24px;
+					padding-right: 24px;
+				}
+			}
+		</style>
 	</head>
 
 	<body>
-		<!-- {{{{raw-helper}}}} -->{{#each data}}
-			<!-- {{{{/raw-helper}}}} -->
-			{{> header }}
+		<!-- raw-helper -->{{#each data}}
+
+
+			{{#if this.personal_data.new_to_brand }}
+				<!--START DARK INTRO-->
+				<container>
+					<row class="ntb">
+						<column class="ntb text-center intro gutter padding-t padding-b border-soft background-dark">
+							<img class="ntb intro-logo" width="125"
+								src="https://assets.vacasa.com/images/logo-2018/vacasa_logo_color_light.png">
+							<!--[if mso]><br /><![endif]-->
+							<p class="ntb intro text-center text-light padding-extra">Vacasa proudly manages over 25,000 vacation
+								homes
+								around the world. When you book with us, you get more than a vacation rental—you get professional
+								service
+								you can count on.</p>
+						</column>
+					</row>
+					<row>
+						<column style="background: #ffffff;" class="padding-b">
+						</column>
+					</row>
+				</container>
+				<!--END DARK INTRO-->
+			{{else}}<!-- /raw-helper -->
+				{{> header }}
+				<!-- raw-helper -->
+			{{/if}}<!-- /raw-helper -->
 
 
 
@@ -51,8 +144,8 @@
 
 
 			{{> search }}
-			<!-- {{{{raw-helper}}}} -->
-		{{/each}}<!-- {{{{/raw-helper}}}} -->
+			<!-- raw-helper -->
+		{{/each}}<!-- /raw-helper -->
 
 		{{> vacasa-footer }}
 	</body>

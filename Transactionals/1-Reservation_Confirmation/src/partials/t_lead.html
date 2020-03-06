@@ -1,0 +1,28 @@
+<!-- {{{{raw-helper}}}} -->
+<container class="lead">
+	<row>
+		<column class="text-left gutter padding-b mbl-pad-sm">
+			<h1 class="small-head">You're headed to {{ RESERVATION_UNIT_ADDRESS_CITY }}</h1>
+		</column>
+	</row>
+	<row>
+		<column class="text-left gutter padding-b-large mbl-pad-sm">
+			<p class="sub-message">Here's a summary of your reservation.</p>
+		</column>
+	</row>
+</container>
+
+<container class="lead">
+	<row>
+		<column class="text-left gutter padding-b-xtra-large mbl-pad-sm">
+			<a href="{{{ TRIP_PORTAL_URL }}}{{{ UTM_CONFIRMATION }}}" target="_blank">
+
+				<img infer="retina" width="600"
+					src="https://vacasa-units.imgix.net/{{{ UNIT_PRIMARY_IMAGE_ID }}}.jpg?w=1200&ar=3:1&fit=crop&crop=entropy,edges"
+					alt="Open new page to book {{ UNIT_NAME }} on Vacasa.com."></img>
+
+			</a>
+		</column>
+	</row>
+</container>
+<!-- {{{{/raw-helper}}}} -->

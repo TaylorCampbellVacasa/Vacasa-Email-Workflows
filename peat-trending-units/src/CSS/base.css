@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+}
 container {
   padding: 0px 0px;
   max-width: 640px;
@@ -9,6 +16,8 @@ div {
 
 body {
   background-color: #fbfbfc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .responsive-container {

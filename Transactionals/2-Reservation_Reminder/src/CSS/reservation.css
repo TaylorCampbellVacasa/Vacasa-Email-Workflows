@@ -26,6 +26,39 @@
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  .res-info-pane img.link-icon.desktop {
+    display: none !important;
+  }
+  .icon-col {
+    width: 16% !important;
+  }
+  .icon-col-warn {
+    padding-left: 16 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .link-icon {
+    padding-bottom: 16px !important;
+  }
+  .row-divider {
+    width: 100% !important;
+
+    max-width: 600px !important;
+  }
+  .mbl-img-row {
+    padding-top: 16px !important;
+  }
+  .res-info-pane.top-row {
+    border-radius: 0 !important;
+  }
+
+  .res-info-pane.bottom-row {
+    border-radius: 0 !important;
+  }
+  .pop-out {
+    display: initial !important;
+  }
 }
 
 .reservation-number {
@@ -65,9 +98,17 @@
   word-wrap: none;
 }
 
+.add-info {
+  max-width: 640px !important;
+}
+
 .res-info-pane {
-  background: #f8f9f9;
+  width: 100%;
   max-width: 600px !important;
+  background-color: #ffffff;
+}
+.res-info-pane column {
+  background-color: #f8f9f9;
 }
 
 .res-info-pane.top-row {
@@ -139,17 +180,39 @@
   font-family: "Nunito Sans", Arial, sans-serif;
   font-weight: 500;
 }
+.row-divider {
+  border-top: 1px solid #ccd6db;
+  width: 426px;
+  height: 1px;
+}
 
 .icon-col {
-  padding-left: 28px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.icon-col-warn {
+  padding-left: 24px;
   padding-right: 6px;
 }
 
 .res-warn-icon {
   min-width: 20px;
+  margin: 0 auto;
 }
 
 .icon-text-gutter {
   padding-left: 4px;
   padding-right: 92px;
+}
+
+.pop-out {
+  display: none;
+  background-color: #f8f9f9;
+}
+.pop-out.top {
+  padding-top: 16px;
+}
+.pop-out.bottom {
+  padding-bottom: 16px;
 }

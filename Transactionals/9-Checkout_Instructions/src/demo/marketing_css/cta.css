@@ -1,0 +1,140 @@
+@media only screen and (max-width: 600px) {
+  .cta-left-btn {
+    padding-right: 24px !important;
+  }
+
+  .cta-right-btn {
+    padding-left: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cta h1 {
+    font-size: 38px !important;
+    letter-spacing: -0.5px !important;
+    line-height: 38px !important;
+  }
+
+  .cta h2 {
+    font-size: 21px !important;
+    letter-spacing: -0.5px !important;
+    line-height: 28px !important;
+  }
+
+  .cta h2.sub {
+    font-size: 18px !important;
+    letter-spacing: -0.2 !important;
+    line-height: 24px !important;
+  }
+
+  .cta p.sub-body {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+
+  .cta p.unit-attributes {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.38px !important;
+  }
+}
+
+.cta h1,
+h2,
+p,
+span,
+a {
+  margin: 0;
+}
+
+.cta h1,
+h2 {
+  color: #2c3439;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.cta p {
+  color: #000000;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.cta h1 {
+  height: auto;
+  font-size: 42px;
+  letter-spacing: -0.3px;
+  line-height: 47px;
+}
+
+.cta h1.small-head {
+  font-size: 38px;
+  letter-spacing: -0.2px;
+  line-height: 44px;
+}
+
+.cta h2 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 36px;
+}
+
+.cta h2.sub {
+  font-size: 21px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+}
+
+.cta p.sub-body {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.cta p.sub-message {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cta p.unit-name {
+  color: #2c3439;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.cta p.unit-attributes {
+  color: #707579;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.45px;
+}
+
+.cta a {
+  color: #707579;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.cta-left-btn {
+  padding-left: 24px;
+  padding-right: 8px;
+}
+
+.cta-right-btn {
+  padding-right: 24px;
+  padding-left: 8px;
+}

@@ -1,89 +1,107 @@
-<container class="res-info-pane" style="background: #ffffff;">
-	<row style="background: #f8f9f9;" class="res-info-pane top-row">
-		<column large="2" small="0" class="left-panel-item dis-none-sm padding-t-large"><a href="{{ TRIP_PORTAL_URL }}"><img
-					infer="retina"
-					src="https://vacasa-units.imgix.net/{{{ UNIT_PRIMARY_IMAGE_ID }}}.jpg?w=168&mask=corners&corner-radius=10,10,10,10&ar=1:1&fit=crop&crop=entropy,edges"
-					alt=""></a>
-		</column>
-		<column large="4" small="6" class="left-panel-item padding-t-large padding-b">
-			<a href="{{ TRIP_PORTAL_URL }}">
-				<span class="info-prehead up-case">Check in</span>
-
-				<p class="reservation-info-value">
-					<!-- raw-helper -->
-					{{date RESERVATION_FIRST_NIGHT "ddd MMM D" datejs=false }}<br>
-					<span class="info-subhead">{{date UNIT_CHECK_IN_TIME "h:mm a" }}</span>
-					<!-- /raw-helper -->
-				</p>
-			</a>
-		</column>
-		<column large="1" small="0" class="padding-b dis-none-sm text-center icon-col">
-			<img class="icon" src="http://vacasa-email.imgix.net/carret.png?h=63" alt="">
-		</column>
-		<column large="4" small="6" class="right-panel-item padding-t-large padding-b text-right">
-			<a href="{{ TRIP_PORTAL_URL }}"><span class="info-prehead up-case">Check out</span>
-
-				<p class="reservation-info-value">
-					<!-- raw-helper -->
-					{{date RESERVATION_LAST_NIGHT "ddd MMM D" datejs=false }}<br>
-					<span class="info-subhead">{{date UNIT_CHECK_OUT_TIME "h:mm a" }}</span>
-					<!-- /raw-helper -->
-				</p>
-			</a>
-
-		</column>
-		<column large="1" small="0">
+<!-- {{{{raw-helper}}}} -->
+<container class="res-info-pane pop-out" style="background: #ffffff;">
+	<row style="background: #f8f9f9;" class="text-center">
+		<column style="background: #f8f9f9;" large="0" small="12" class="padding-t mbl-img-row mbl-pad-md">
+			<a href="{{{ TRIP_PORTAL_URL }}}"><img infer="retina"
+					src="https://vacasa-units.imgix.net/{{{ UNIT_PRIMARY_IMAGE_ID }}}.jpg?w=1150&mask=corners&corner-radius=10,10,10,10&ar=4:1&fit=crop&crop=entropy,edges"
+					alt="Your Vacasa home image"></a>
 		</column>
 	</row>
 </container>
 
-<container class="res-info-pane">
-	<row style="background: #f8f9f9;">
-		<column large="2" small="0"></column>
-		<column large="9" small="12" class="panel-item text-center" style="padding-top: 12px;s">
-			<hr style="border-top:1px solid #CCD6DB; width: 100%; max-width:600px; height:1px;" />
+<container class="res-info-pane" style="background: #ffffff;">
+	<row style="background: #f8f9f9;" class="res-info-pane top-row">
+		<column style="background: #f8f9f9;" large="2" small="0" class="left-panel-item dis-none-cell-sm padding-t-large"><a
+				href="{{{ TRIP_PORTAL_URL }}}"><img infer="retina"
+					src="https://vacasa-units.imgix.net/{{{ UNIT_PRIMARY_IMAGE_ID }}}.jpg?w=168&mask=corners&corner-radius=10,10,10,10&ar=1:1&fit=crop&crop=entropy,edges"
+					alt="Your Vacasa home image"></a>
 		</column>
-		<column large="1" small="0">
-			<a href="{{ TRIP_PORTAL_URL }}"><img class="link-icon" src="http://vacasa-email.imgix.net/external-link.png?h=24"
-					alt=""></a>
-		</column>
+		<column style="background: #f8f9f9;" large="4" small="5" class="left-panel-item padding-t-large padding-b">
+			<a href="{{{ TRIP_PORTAL_URL }}}">
+				<span class="info-prehead up-case">Check in</span>
 
+				<p class="reservation-info-value">
+
+					{{date RESERVATION_FIRST_NIGHT "ddd MMM D" datejs=false }}<br>
+					<span class="info-subhead">{{date UNIT_CHECK_IN_TIME "h:mm a" }}</span>
+				</p>
+			</a>
+		</column>
+		<column style="background: #f8f9f9;" large="1" small="1" class="padding-b text-center icon-col">
+			<img class="icon" height="63" src="http://vacasa-email.imgix.net/carret.png?h=63" alt="Divider Icon">
+		</column>
+		<column style="background: #f8f9f9;" large="4" small="5"
+			class="right-panel-item padding-t-large padding-b text-right">
+			<a href="{{{ TRIP_PORTAL_URL }}}"><span class="info-prehead up-case">Check out</span>
+
+				<p class="reservation-info-value">
+					{{date RESERVATION_LAST_NIGHT "ddd MMM D" datejs=false }}<br>
+					<span class="info-subhead">{{date UNIT_CHECK_OUT_TIME "h:mm a" }}</span>
+				</p>
+			</a>
+
+		</column>
+		<column style="background: #f8f9f9;" large="1" small="0" class="dis-none-cell-sm">&nbsp;
+		</column>
+	</row>
+</container>
+
+<container class="res-info-pane" style="background: #ffffff;">
+	<row style="background: #f8f9f9;">
+		<column style="background: #f8f9f9;" large="2" small="0" class="dis-none-cell-sm">&nbsp;</column>
+		<column style="background: #f8f9f9; padding-top: 12px !important;" large="9" small="12"
+			class="panel-item text-center">
+			<hr class="row-divider" />
+		</column>
+		<column style="background: #f8f9f9;" large="1" small="0" class="dis-none-cell-sm">
+			<a href="{{{ TRIP_PORTAL_URL }}}"><img class="link-icon desktop"
+					src="http://vacasa-email.imgix.net/external-link.png?h=24"
+					alt="Click to view your reservation in the Trip Portal"></a>
+		</column>
 	</row>
 </container>
 
 <container class="res-info-pane" style="background: #ffffff;">
 	<row style="background: #f8f9f9;" class="res-info-pane bottom-row">
-		<column large="2" small="0" class="left-panel-item dis-none-sm padding-t-large padding-b-large"></column>
-		<column large="4" small="6" class="left-panel-item padding-t-large padding-b-large">
-			<a href="{{ TRIP_PORTAL_URL }}">
+		<column style="background: #f8f9f9;" large="2" small="0"
+			class="left-panel-item dis-none-cell-sm padding-t-large padding-b-large">&nbsp;
+		</column>
+		<column style="background: #f8f9f9;" large="4" small="5" class="left-panel-item padding-t-large padding-b-large">
+			<a href="{{{ TRIP_PORTAL_URL }}}">
 				<span class="info-prehead up-case">Guests</span>
 
 				<p class="reservation-info-value">
-					<!-- raw-helper -->
-					{{ RESERVATION_ADULTS }} adult{{#isnt RESERVATION_ADULTS 1}}s{{/isnt}}, {{ RESERVATION_CHILDREN }}
-					child{{#isnt RESERVATION_CHILDREN 1}}ren{{/isnt}}<br>
-					<span class="info-subhead">{{ RESERVATION_PETS }} dog{{#isnt RESERVATION_PETS 1}}s{{/isnt}}</span>
-					<!-- /raw-helper -->
+					{{ RESERVATION_ADULTS }}&nbsp;Adult{{#isnt RESERVATION_ADULTS 1}}s{{/isnt}},
+					{{ RESERVATION_CHILDREN }}&nbsp;Child{{#isnt RESERVATION_CHILDREN 1}}ren{{/isnt}}<br>
+					<span class="info-subhead">{{ RESERVATION_PETS }}&nbsp;Dog{{#isnt RESERVATION_PETS 1}}s{{/isnt}}</span>
 				</p>
 			</a>
 
 		</column>
-		<column large="1" small="0" class="padding-b-large dis-none-sm icon-col">
-			<img class="icon" src="http://vacasa-email.imgix.net/v-line.png?h=52" alt="">
+		<column style="background: #f8f9f9;" large="1" small="1" class="padding-b-large icon-col">
+			<img class="icon" src="http://vacasa-email.imgix.net/v-line.png?h=52" alt="Divider Icon">
 		</column>
-		<column large="4" small="6" class="right-panel-item padding-t-large padding-b-large text-right">
-			<a href="{{ TRIP_PORTAL_URL }}">
+		<column style="background: #f8f9f9;" large="4" small="5"
+			class="right-panel-item padding-t-large padding-b-large text-right">
+			<a href="{{{ TRIP_PORTAL_URL }}}">
 				<span class="info-prehead up-case">Confirmation</span>
 
 				<p class="reservation-info-value lrg">
-					<!-- raw-helper -->
 					{{ RESERVATION_ID }}
-					<!-- /raw-helper -->
 				</p>
 			</a>
 
 		</column>
-		<column large="1" small="0">
+		<column style="background: #f8f9f9;" large="1" small="0" class="dis-none-cell-sm">&nbsp;
+		</column>
+	</row>
+</container>
+
+<container style="background: #ffffff;" class="res-info-pane pop-out">
+	<row style="background: #f8f9f9;">
+		<column style="background: #f8f9f9;" large="0" small="12" class="padding-b link-icon text-center">
+			<a href="{{{ TRIP_PORTAL_URL }}}"><img class="icon" src="http://vacasa-email.imgix.net/external-link.png?h=24"
+					alt="Click to view your reservation in the Trip Portal"></a>
 		</column>
 	</row>
 </container>
@@ -94,3 +112,4 @@
 		</column>
 	</row>
 </container>
+<!-- {{{{/raw-helper}}}} -->

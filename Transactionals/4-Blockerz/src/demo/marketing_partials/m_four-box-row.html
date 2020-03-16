@@ -1,0 +1,37 @@
+<container>
+	<row>
+		<column class="four-b-gutter mbl-pad-md">
+
+			<container>
+				<row>
+					{{#each four_box}}
+						<column class="four-box padding-b-small" large="3" small="6">
+							<!-- raw-helper -->
+							<a href="{{{ url }}}{{{ utm_add }}}" target="_blank">
+								<img infer="retina" class="padding-b-small four-b-image" width="142"
+									src="{{{ image }}}?vib=20&w=568&ar=4:3&fit=crop&crop=entropy,edges"
+									alt="Click to view and book {{ name }} on Vacasa.com" />
+								<p class="four-b-name">
+									{{ name }}
+								</p>
+								<p class="four-b-description">
+									{{ desc }}
+								</p>
+							</a>
+							<!-- /raw-helper -->
+						</column>
+					{{/each}}
+				</row>
+			</container>
+
+		</column>
+	</row>
+</container>
+
+<container>
+	<row>
+		<column class="padding-b-xtra-large">
+			<!--pad-col-->
+		</column>
+	</row>
+</container>

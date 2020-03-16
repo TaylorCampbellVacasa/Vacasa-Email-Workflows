@@ -1,0 +1,101 @@
+<!-- {{{{raw-helper}}}} -->{{#if RESERVATION_IS_BLOCKED_BY_AGREEMENT}}
+	<container class="add-info">
+		<row>
+			<column class="padding-b-large gutter mbl-pad-md">
+				<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
+			</column>
+		</row>
+		<row>
+			<column class="padding-b text-gutter text-left mbl-pad-md">
+				<h2 class="t_bloc">Sign your rental agreement</h2>
+			</column>
+		</row>
+		<row>
+			<column class="padding-b-large text-gutter text-left mbl-pad-md">
+				<!-- {{{{/raw-helper}}}} -->
+				{{> t_primary-button-side label="Sign Agreement"  url="{{{ TRIP_PORTAL_URL }}}"}}
+			</column>
+			<column>
+			</column>
+		</row>
+	</container>
+	<!-- {{{{raw-helper}}}} -->
+{{/if}}<!-- {{{{/raw-helper}}}} -->
+
+<!-- {{{{raw-helper}}}} -->{{#if RESERVATION_IS_BLOCKED_BY_BALANCE}}
+	<container class="add-info">
+		<row>
+			<column class="padding-b-large gutter mbl-pad-md">
+				<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
+			</column>
+		</row>
+		<row>
+			<column class="padding-b-small text-gutter text-left mbl-pad-md">
+				<h2 class="t_bloc">Pay your balance</h2>
+			</column>
+		</row>
+		<row>
+			<column class="padding-b-large text-gutter text-left mbl-pad-md">
+
+				<p class="body-text">Your remaining balance of {{ RESERVATION_BALANCE }} is due by {{ RESERVATION_DUE_DATE }}.
+				</p>
+			</column>
+		</row>
+		<row>
+			<column class="padding-b-large text-gutter text-left mbl-pad-md">
+				{{#if RESERVATION_IS_BLOCKED_BY_AGREEMENT}}
+					<!-- {{{{/raw-helper}}}} -->
+					{{> t_secondary-button-side label="Pay Balance"  url="{{{ TRIP_PORTAL_URL }}}"}}
+					<!-- {{{{raw-helper}}}} -->
+				{{else}}<!-- {{{{/raw-helper}}}} -->
+					{{> t_primary-button-side label="Pay Balance"  url="{{{ TRIP_PORTAL_URL }}}"}}
+					<!-- {{{{raw-helper}}}} -->{{/if}}
+			</column>
+			<column>
+			</column>
+		</row>
+	</container>
+{{/if}}
+
+{{#if RESERVATION_IS_BLOCKED_BY_VEHICLE}}
+	<!-- {{{{/raw-helper}}}} -->
+	<container class="add-info">
+		<row>
+			<column class="padding-b-large gutter mbl-pad-md">
+				<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
+			</column>
+		</row>
+		<row>
+			<column class="padding-b-small text-gutter text-left mbl-pad-md">
+				<h2 class="t_bloc">Add your vehicle info</h2>
+			</column>
+		</row>
+		<row>
+			<column class="padding-b-large text-gutter text-left mbl-pad-md">
+
+				<p class="body-text">Your Vacasa home is in a community that requires visitors to register their vehicles.</p>
+			</column>
+		</row>
+		<row>
+			<column class="padding-b-large text-gutter text-left mbl-pad-md">
+				<!-- {{{{raw-helper}}}} -->{{#if RESERVATION_IS_BLOCKED_BY_BALANCE}}
+					<!-- {{{{/raw-helper}}}} -->
+					{{> t_secondary-button-side label="Add Vehicle Info"  url="{{{ TRIP_PORTAL_URL }}}"}}
+					<!-- {{{{raw-helper}}}} -->
+				{{else}}
+					{{#if RESERVATION_IS_BLOCKED_BY_AGREEMENT}}
+						<!-- {{{{/raw-helper}}}} -->
+						{{> t_secondary-button-side label="Add Vehicle Info"  url="{{{ TRIP_PORTAL_URL }}}"}}
+						<!-- {{{{raw-helper}}}} -->
+					{{else}}<!-- {{{{/raw-helper}}}} -->
+						{{> t_primary-button-side label="Add Vehicle Info"  url="{{{ TRIP_PORTAL_URL }}}"}}
+						<!-- {{{{raw-helper}}}} -->{{/if}}
+				{{/if}}
+			</column>
+			<column>
+			</column>
+		</row>
+	</container>
+{{/if}}
+
+<!-- {{{{/raw-helper}}}} -->

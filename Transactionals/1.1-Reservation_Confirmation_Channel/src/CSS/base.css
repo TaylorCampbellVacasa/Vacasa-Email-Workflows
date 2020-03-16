@@ -1,0 +1,185 @@
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+}
+container {
+  padding: 0px 0px;
+  max-width: 640px;
+}
+
+body {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.responsive-container {
+  max-width: 648px;
+}
+
+a {
+  color: #003349 !important;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.gutter-xtra-large {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.gutter-large {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.gutter {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.text-gutter {
+  padding-left: 24px;
+  padding-right: 36px;
+}
+
+.padding-t-huge {
+  padding-top: 40px;
+}
+
+.padding-t-xtra-large {
+  padding-top: 32px;
+}
+
+.padding-t-large {
+  padding-top: 24px;
+}
+
+.padding-t {
+  padding-top: 16px;
+}
+
+.padding-t-small {
+  padding-top: 8px;
+}
+
+.padding-t-xtra-small {
+  padding-top: 4px;
+}
+
+.padding-b-huge {
+  padding-bottom: 40px;
+}
+
+.padding-b-xtra-large {
+  padding-bottom: 32px;
+}
+
+.padding-b-large {
+  padding-bottom: 24px;
+}
+
+.padding-b {
+  padding-bottom: 16px;
+}
+
+.padding-b-small {
+  padding-bottom: 8px;
+}
+
+.left-col-item-xl {
+  padding-left: 48px;
+  padding-right: 8px;
+}
+
+.right-col-item-xl {
+  padding-left: 8px;
+  padding-right: 48px;
+}
+
+.left-col-item {
+  padding-left: 24px;
+  padding-right: 4px;
+}
+
+.right-col-item {
+  padding-left: 4px;
+  padding-right: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0 !important;
+  }
+  .mbl-pad-lg {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+  .mbl-pad {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  .mbl-pad-md {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .mbl-pad-md-l {
+    padding-left: 16px !important;
+  }
+
+  .mbl-pad-md-r {
+    padding-right: 16px !important;
+  }
+
+  .mbl-pad-sm {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .mbl-pad-sm-l {
+    padding-left: 8px !important;
+  }
+
+  .mbl-pad-sm-r {
+    padding-right: 8px !important;
+  }
+
+  .mobile-pb {
+    padding-bottom: 16px !important;
+  }
+
+  .mobile-pb-small {
+    padding-bottom: 8px !important;
+  }
+
+  .fixed.left-col-item-xl,
+  .fixed.left-col-item {
+    padding-right: 4px !important;
+  }
+
+  .fixed.right-col-item-xl,
+  .fixed.right-col-item {
+    padding-left: 4px !important;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .col-12-xs {
+    width: 100% !important;
+  }
+}

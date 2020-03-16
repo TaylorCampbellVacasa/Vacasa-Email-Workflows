@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+  .four-b-gutter {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .four-box {
+    padding: 12px !important;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .four-box {
+    padding: 8px !important;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .four-box {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+.outlook-fourb {
+  max-width: 592px;
+}
+
+.four-box {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.four-b-gutter {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.four-b-image {
+  -ms-interpolation-mode: bicubic;
+  border: none;
+  clear: both;
+  display: block;
+  outline: 0;
+  text-decoration: none;
+  width: auto;
+  max-width: 100%;
+  border-radius: 2px;
+}
+
+.four-b-name {
+  color: #2c3439;
+  font-family: "wigrum-medium", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.four-b-description {
+  color: #4c5357;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}

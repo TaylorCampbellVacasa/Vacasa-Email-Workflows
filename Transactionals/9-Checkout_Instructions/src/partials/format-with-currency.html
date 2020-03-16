@@ -1,0 +1,8 @@
+<!-- {{{{raw-helper}}}} -->
+{{#if BOOKED_CURRENCY_CODE  }}
+
+	{{replace VALUE "$" ""}} {{BOOKED_CURRENCY_CODE}}.
+
+{{else}}
+	${{VALUE}} USD.{{/if}}
+<!-- {{{{/raw-helper}}}} -->

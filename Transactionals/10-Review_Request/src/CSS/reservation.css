@@ -1,0 +1,225 @@
+@media only screen and (max-width: 600px) {
+  .icon-text-gutter {
+    padding-left: 16px !important;
+  }
+  .reservation-unit-name {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .reservation-unit-address {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .reservation-info-value {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .reservation-info-value.lrg {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+  .res-txt span {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .res-info-pane img.link-icon {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .res-info-pane img.link-icon.desktop {
+    display: none !important;
+  }
+  .icon-col {
+    width: 16% !important;
+  }
+  .icon-col-warn {
+    padding-left: 16 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .link-icon {
+    padding-bottom: 16px !important;
+  }
+  .row-divider {
+    width: 100% !important;
+
+    max-width: 600px !important;
+  }
+  .mbl-img-row {
+    padding-top: 16px !important;
+  }
+  .res-info-pane.top-row {
+    border-radius: 0 !important;
+  }
+
+  .res-info-pane.bottom-row {
+    border-radius: 0 !important;
+  }
+  .res-info-pane.single-row {
+    border-radius: 0 !important;
+  }
+  .pop-out {
+    display: initial !important;
+  }
+}
+
+.reservation-number {
+  color: #2c3439;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-weight: normal;
+}
+
+.reservation-unit-name {
+  color: #2c3439;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  overflow: hidden !important;
+  text-decoration: none;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: normal;
+}
+
+.reservation-unit-address {
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.info-prehead {
+  color: #707579;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  word-wrap: none;
+}
+
+.add-info {
+  max-width: 640px !important;
+}
+
+.res-info-pane {
+  width: 100%;
+  max-width: 600px !important;
+  background-color: #ffffff;
+}
+.res-info-pane column {
+  background-color: #f8f9f9;
+}
+
+.res-info-pane.top-row {
+  border-radius: 4px 4px 0 0;
+}
+
+.res-info-pane.bottom-row {
+  border-radius: 0 0 4px 4px;
+}
+
+.res-info-pane.single-row {
+  border-radius: 4px 4px 4px 4px;
+}
+
+.res-info-pane span.info-prehead {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  word-wrap: none;
+  letter-spacing: 0.73px;
+}
+
+.reservation-info-value {
+  color: #373737;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.res-info-pane p.reservation-info-value {
+  font-size: 16px;
+  font-weight: 700 !important;
+}
+
+.res-info-pane p.reservation-info-value.lrg {
+  font-size: 36px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 48px;
+  font-weight: 400 !important;
+}
+
+.res-info-pane span.info-subhead {
+  color: #4c5357;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700 !important;
+  line-height: 24px;
+  letter-spacing: 0.73px;
+}
+
+.res-info-pane .icon-col {
+  padding-top: 30px;
+}
+
+.res-info-pane img.icon {
+  margin: 0 auto;
+}
+
+.res-info-pane img.link-icon {
+  margin-left: 6px;
+  margin-right: auto;
+}
+
+.amenity-name span {
+  vertical-align: super;
+}
+
+.res-txt span {
+  color: rgb(55, 55, 55);
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+.row-divider {
+  border-top: 1px solid #ccd6db;
+  width: 426px;
+  height: 1px;
+}
+
+.icon-col {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.icon-col-warn {
+  padding-left: 24px;
+  padding-right: 6px;
+}
+
+.res-warn-icon {
+  min-width: 20px;
+  margin: 0 auto;
+}
+
+.icon-text-gutter {
+  padding-left: 4px;
+  padding-right: 92px;
+}
+
+.pop-out {
+  display: none;
+  background-color: #f8f9f9;
+}
+.pop-out.top {
+  padding-top: 16px;
+}
+.pop-out.bottom {
+  padding-bottom: 16px;
+}

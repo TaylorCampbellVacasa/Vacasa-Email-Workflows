@@ -49,9 +49,11 @@
 					No garage parking
 				{{/if}}
 			</h3>
-			<p class="body-text">
-				{{{ RESERVATION_PARKING_NOTES }}}
-			</p>
+			{{#if RESERVATION_PARKING_NOTES}}
+				<p class="body-text">
+					{{{ RESERVATION_PARKING_NOTES }}}
+				</p>
+			{{/if}}
 		</column>
 	</row>
 
@@ -70,11 +72,13 @@
 				<h3 class="body-text">Gate code: <span class="body-text">{{ RESERVATION_GATE_CODE }}</span>
 				</h3>
 				<p class="body-text">
-					{{{ RESERVATION_GATE_CODE_NOTES }}}</p><br />
-				<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
+					{{#if RESERVATION_GATE_CODE_NOTES}}
+						{{{ RESERVATION_GATE_CODE_NOTES }}}</p>
+	{{/if}}<br />
+	<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
 
-			</column>
-		</row>
+	</column>
+	</row>
 	{{/if}}
 	<row>
 		<column large="2" small="2" class="padding-b-large left-col-item">
@@ -83,8 +87,10 @@
 		<column large="10" small="10" class="padding-b-large text-left mbl-pad-md">
 			<h3 class="body-text">Lockbox code: <span class="body-text">{{ RESERVATION_LOCKBOX_CODE }}</span>
 			</h3>
-			<p class="body-text">
-				{{{ RESERVATION_LOCKBOX_CODE_NOTES }}}</p><br />
+			{{#if RESERVATION_LOCKBOX_CODE_NOTES}}
+				<p class="body-text">
+					{{{ RESERVATION_LOCKBOX_CODE_NOTES }}}</p>
+			{{/if}}<br />
 			<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
 		</column>
 	</row>
@@ -98,11 +104,13 @@
 				<h3 class="body-text">Alarm code: <span class="body-text">{{ RESERVATION_ALARM_CODE }}</span>
 				</h3>
 				<p class="body-text">
-					{{{ RESERVATION_ALARM_CODE_NOTES }}}</p><br />
-				<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
+					{{#if RESERVATION_ALARM_CODE_NOTES}}
+						{{{ RESERVATION_ALARM_CODE_NOTES }}}</p>
+	{{/if}}<br />
+	<hr style="border-top:1px solid rgb(229, 235, 237); width: 100%; max-width:600px; height:1px;" />
 
-			</column>
-		</row>
+	</column>
+	</row>
 	{{/if}}
 	<!-- WiFi -->
 	{{#if RESERVATION_WIFI }}
@@ -120,9 +128,11 @@
 					Network: <span class="body-text">{{ RESERVATION_WIFI_NETWORK }}</span><br />
 					Password: <span class="body-text">{{ RESERVATION_WIFI_PASSWORD }}</span>
 				</h3>
-				<p class="body-text">
-					{{{ UNIT_INTERNET_NOTES }}}
-				</p>
+				{{#if UNIT_INTERNET_NOTES }}
+					<p class="body-text">
+						{{{ UNIT_INTERNET_NOTES }}}
+					</p>
+				{{/if}}
 			</column>
 		</row>
 	{{/if}}

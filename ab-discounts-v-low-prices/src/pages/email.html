@@ -1,0 +1,26 @@
+<heml>
+
+	<head>
+		<preview>Book today on Vacasa.com</preview>
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
+
+		<!-- inject-style src="src/CSS/{{ email_type }}/base.css" -->
+		<!-- inject-style src="src/CSS/{{ email_type }}/typography.css" -->
+		<!-- inject-style src="src/CSS/{{ email_type }}/header-white.css" -->
+		<!-- inject-style src="src/CSS/{{ email_type }}/buttons.css" -->
+		<!-- inject-style src="src/CSS/{{ email_type }}/reservation.css" -->
+		<!-- inject-style src="src/CSS/{{ email_type }}/vacasa-transactional-footer.css" -->
+
+	</head>
+
+	<body>
+		{{> t_header }}
+		{{> t_lead name=unit_1_name image=unit_1_image url=unit_1_url }}
+		{{> t_reservation-details name=unit_1_name image=unit_1_image url=unit_1_url }}
+		{{> t_reservation-receipt ame=unit_1_name image=unit_1_image url=unit_1_url }}
+		{{> t_reservation-amenities ame=unit_1_name image=unit_1_image url=unit_1_url }}
+		{{> t_reservation-add-info ame=unit_1_name image=unit_1_image url=unit_1_url }}
+		{{> t_vacasa-footer ame=unit_1_name image=unit_1_image url=unit_1_url }}
+
+	</body>
+</heml>

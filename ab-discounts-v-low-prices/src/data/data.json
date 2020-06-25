@@ -1,0 +1,81 @@
+{
+  "email_type": "transactional",
+  "rndr_template": false,
+  "rndr_headline": "A filler headline to be replaced later",
+  "rndr_subhead": "A filler sub-headline to be replaced later",
+  "utm": "utm_source=sendgrid&utm_medium=email&utm_campaign=emaildev",
+  "utm_add": "&utm_source=sendgrid&utm_medium=email&utm_campaign=emaildev",
+  "utm_new": "/?utm_source=sendgrid&utm_medium=email&utm_campaign=emaildev",
+  "unit_1_url": "https://www.vacasa.com/unit.php?UnitID=19769",
+  "unit_1_image": "https://vacasa-units.imgix.net/1217056.jpg",
+  "unit_1_name": "Rustic Star Retreat",
+  "unit_1_bed": 3,
+  "unit_1_bath": 2,
+  "unit_1_sleeps": 10,
+  "unit_1_price": 271,
+  "unit_2_url": "https://www.vacasa.com/unit.php?UnitID=25314",
+  "unit_2_image": "https://vacasa-units.imgix.net/1872916.jpg",
+  "unit_2_name": "The Fairest View",
+  "unit_2_bed": 4,
+  "unit_2_bath": 4,
+  "unit_2_sleeps": 10,
+  "unit_2_price": 273,
+  "unit_3_url": "https://www.vacasa.com/unit.php?UnitID=3313",
+  "unit_3_image": "https://vacasa-units.imgix.net/163190.jpg",
+  "unit_3_name": "The Great Escape",
+  "unit_3_bed": 3,
+  "unit_3_bath": 3,
+  "unit_3_sleeps": 10,
+  "unit_3_price": 300,
+  "unit_4_url": "https://www.vacasa.com/unit.php?UnitID=19073",
+  "unit_4_image": "https://vacasa-units.imgix.net/1172087.jpg",
+  "unit_4_name": "Alder Hill Overlook",
+  "unit_4_bed": 4,
+  "unit_4_bath": 2,
+  "unit_4_sleeps": 10,
+  "unit_4_price": 316,
+  "added_guest_name": "Real Person",
+  "reservation_id": "1FG86HP403",
+  "reservation_guest_full_name": "Real Guest",
+  "reservation_unit_name": "Rustic Star Retreat",
+  "reservation_check_in_date": "Thurs Jul 6, 4:00 pm",
+  "reservation_check_out_date": "Sun Jul 10, 11:00 am",
+  "address_line_one": "89200 E. Little Trail",
+  "address_line_two": "Government Camp, OR 97028",
+  "city_name": "Lempus",
+  "four_box": [
+    {
+      "name": "Rustic Star Retreat",
+      "desc": "Very nice place, no bats.",
+      "image": "https://vacasa-units.imgix.net/1217056.jpg",
+      "utm": "&utm_campaign=emaildev&utm_source=emaildev",
+      "url": "https://www.vacasa.com/unit.php?UnitID=19769"
+    },
+    {
+      "name": "The Fairest View",
+      "desc": "Very nice place, no bats.",
+      "image": "https://vacasa-units.imgix.net/1872916.jpg",
+      "utm": "&utm_campaign=emaildev&utm_source=emaildev",
+      "url": "https://www.vacasa.com/unit.php?UnitID=25314"
+    },
+    {
+      "name": "The Great Escape",
+      "desc": "Very nice place, no bats.",
+      "image": "https://vacasa-units.imgix.net/163190.jpg",
+      "utm": "&utm_campaign=emaildev&utm_source=emaildev",
+      "url": "https://www.vacasa.com/unit.php?UnitID=3313"
+    },
+    {
+      "name": "Alder Hill Overlook",
+      "desc": "Very nice place, some bats.",
+      "image": "https://vacasa-units.imgix.net/1172087.jpg",
+      "utm": "&utm_campaign=emaildev&utm_source=emaildev",
+      "url": "https://www.vacasa.com/unit.php?UnitID=1907"
+    }
+  ],
+  "guests": {
+    "adults": "4",
+    "children": "2",
+    "dogs": "1"
+  }
+}

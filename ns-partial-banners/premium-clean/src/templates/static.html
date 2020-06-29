@@ -1,0 +1,131 @@
+<heml>
+
+	<head>
+		<preview>Explore monthly vacation rentals just a drive away.</preview>
+
+		<!-- inject-style src="src/CSS/base.css" -->
+		<!-- inject-style src="src/CSS/header.css" -->
+		<!-- inject-style src="src/CSS/cta.css" -->
+		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
+		<!-- inject-style src="src/CSS/basic-card.css" -->
+		<!-- inject-style src="src/CSS/typography.css" -->
+		<!-- inject-style src="src/CSS/fourbox.css" -->
+		<!-- inject-style src="src/CSS/buttons.css" -->
+	</head>
+
+	<body>
+		<!-- raw-helper -->{{#each data}}
+			<!-- /raw-helper -->
+
+			{{> cta-white-top-blue-photo }}
+
+			<container>
+				<row class="pad-b pad-t-lrg">
+					<column class="hero gutter txt-l">
+						<h2>
+							Head south for fun and sun
+						</h2>
+					</column>
+				</row>
+				<row>
+					<column class="card-container-left" large="6" small="12">
+						{{> static-card-1 }}
+					</column>
+					<column class="card-container-right" large="6" small="12">
+						{{> static-card-2 }}
+					</column>
+				</row>
+				<row>
+					<column class="card-container-left" large="6" small="12">
+						{{> static-card-3 }}
+					</column>
+					<column class="card-container-right" large="6" small="12">
+						{{> static-card-4 }}
+					</column>
+				</row>
+				<row>
+					<column class="card-container-left" large="6" small="12">
+						{{> static-card-5 }}
+					</column>
+					<column class="card-container-right" large="6" small="12">
+						{{> static-card-6 }}
+					</column>
+				</row>
+				<row>
+					<!--pad-row-->
+					<column class="pad-b-lrg"></column>
+					<column></column>
+				</row>
+			</container>
+			<!-- raw-helper -->
+
+			<container>
+				<row class="pad-b pad-t">
+					<column class="hero gutter txt-l">
+						<h2>
+							Take off for a quiet cabin
+						</h2>
+					</column>
+				</row>
+				<row>
+					<column class="gutter">
+
+						<container>
+							<row>
+
+								<column class="four-box" large="4" small="12">
+									<!-- raw-helper -->
+									<a href="https://www.vacasa.com/usa/Michigan/?amenity[Snowbird]=1" target="_blank">
+										<img infer="retina" class="pad-b-sml four-b-image" width="122"
+											src="https://vacasa-units.imgix.net/1721283.jpg?w=568&ar=1:1&fit=crop&crop=entropy,edges"
+											alt="Click to view and book Michigan on Vacasa.com" />
+										<p class="four-b-name">
+											Michigan
+										</p>
+									</a>
+								</column>
+
+								<column class="four-box" large="4" small="12">
+									<!-- raw-helper -->
+									<a href="https://www.vacasa.com/usa/North-Carolina/?amenity[Snowbird]=1" target="_blank">
+										<img infer="retina" class="pad-b-sml four-b-image" width="122"
+											src="https://vacasa-units.imgix.net/1596957.jpg?w=568&ar=1:1&fit=crop&crop=entropy,edges"
+											alt="Click to view and book North Carolina homes on Vacasa.com" />
+										<p class="four-b-name">
+											North Carolina
+										</p>
+									</a>
+								</column>
+
+								<column class="four-box" large="4" small="12">
+									<!-- raw-helper -->
+									<a href="https://www.vacasa.com/usa/Idaho/?amenity[Snowbird]=1" target="_blank">
+										<img infer="retina" class="pad-b-sml four-b-image" width="122"
+											src="https://vacasa-units.imgix.net/1617702.jpg?w=568&ar=1:1&fit=crop&crop=entropy,edges"
+											alt="Click to view and book Idaho homes on Vacasa.com" />
+										<p class="four-b-name">
+											Idaho
+										</p>
+									</a>
+								</column>
+							</row>
+						</container>
+
+					</column>
+				</row>
+			</container>
+
+			<container>
+				<row>
+					<column class="pad-b">
+						<!--pad-col-->
+					</column>
+				</row>
+			</container>
+
+		{{/each}}<!-- /raw-helper -->
+
+
+		{{> vacasa-footer-devonly-nosend }}
+	</body>
+</heml>

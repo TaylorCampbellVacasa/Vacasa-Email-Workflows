@@ -1,0 +1,76 @@
+<heml>
+
+	<head>
+		<preview>Explore monthly vacation rentals just a drive away.</preview>
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
+
+		<!-- inject-style src="src/CSS/base.css" -->
+	</head>
+
+	<body>
+		<!-- raw-helper -->{{#each data}}
+			<!-- /raw-helper -->
+
+			{{> header }}
+
+			{{> header-white-btn }}
+
+			{{> hero image="https://vacasa-units.imgix.net/1933154.jpg" }}
+
+			{{> hero-2 image="https://vacasa-units.imgix.net/1933154.jpg" }}
+
+			{{> hero-blue }}
+
+			{{> hero-blue-2 }}
+
+
+			<container>
+				<row class="pad-b pad-t-lrg">
+					<column class="hero gutter txt-l">
+						<h2>
+							Head south for fun and sun
+						</h2>
+					</column>
+				</row>
+				<row>
+					<column class="card-container-left" large="6" small="12">
+						{{> basic-card-1 }}
+					</column>
+					<column class="card-container-right" large="6" small="12">
+						{{> basic-card-2 }}
+					</column>
+				</row>
+				<row>
+					<column class="card-container-left" large="6" small="12">
+						{{> basic-card-3 }}
+					</column>
+					<column class="card-container-right" large="6" small="12">
+						{{> basic-card-4 }}
+					</column>
+				</row>
+				<row>
+					<!--pad-row-->
+					<column class="pad-b-lrg"></column>
+					<column></column>
+				</row>
+			</container>
+			<!-- raw-helper -->
+
+			</column>
+			</row>
+			</container>
+
+			<container>
+				<row>
+					<column class="pad-b">
+						<!--pad-col-->
+					</column>
+				</row>
+			</container>
+
+		{{/each}}<!-- /raw-helper -->
+
+
+		{{> vacasa-footer }}
+	</body>
+</heml>

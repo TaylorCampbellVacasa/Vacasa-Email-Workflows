@@ -1,76 +1,104 @@
 <heml>
 
 	<head>
-		<preview>Explore monthly vacation rentals just a drive away.</preview>
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
 
+
 		<!-- inject-style src="src/CSS/base.css" -->
+		<style>
+			container#premium-clean {
+				background-color: #003349;
+				background-image: url('https://vacasa-units.imgix.net/2176010.jpg?w=640&fit=max&q=40&auto=format&blend-color=994D7080&blur=40');
+			}
+
+			h1 {
+				text-align: center;
+				font-size: 24px;
+				font-weight: bold;
+				color: white;
+			}
+
+			.peat-banner-t {
+				padding-top: 32px;
+			}
+
+			.peat-banner-b {
+				padding-bottom: 32px;
+			}
+
+			.mobile-icon {
+				display: none;
+			}
+
+			@media only screen and (max-width: 600px) {
+				.peat-banner-t {
+					padding-top: 24px !important;
+				}
+
+				.peat-banner-b {
+					padding-bottom: 24px !important;
+				}
+
+				.mobile-icon {
+					display: block !important;
+				}
+			}
+		</style>
 	</head>
 
 	<body>
-		<!-- raw-helper -->{{#each data}}
-			<!-- /raw-helper -->
 
-			{{> header }}
-
-			{{> header-white-btn }}
-
-			{{> hero image="https://vacasa-units.imgix.net/1933154.jpg" }}
-
-			{{> hero-2 image="https://vacasa-units.imgix.net/1933154.jpg" }}
-
-			{{> hero-blue }}
-
-			{{> hero-blue-2 }}
-
-
-			<container>
-				<row class="pad-b pad-t-lrg">
-					<column class="hero gutter txt-l">
-						<h2>
-							Head south for fun and sun
-						</h2>
-					</column>
-				</row>
-				<row>
-					<column class="card-container-left" large="6" small="12">
-						{{> basic-card-1 }}
-					</column>
-					<column class="card-container-right" large="6" small="12">
-						{{> basic-card-2 }}
-					</column>
-				</row>
-				<row>
-					<column class="card-container-left" large="6" small="12">
-						{{> basic-card-3 }}
-					</column>
-					<column class="card-container-right" large="6" small="12">
-						{{> basic-card-4 }}
-					</column>
-				</row>
-				<row>
-					<!--pad-row-->
-					<column class="pad-b-lrg"></column>
-					<column></column>
-				</row>
-			</container>
-			<!-- raw-helper -->
-
-			</column>
+		<container>
+			<row style="background-color: #FFAD02;height:4px;">
+				<column style="font-size:4px;">
+				</column>
 			</row>
-			</container>
+		</container>
 
-			<container>
-				<row>
-					<column class="pad-b">
-						<!--pad-col-->
-					</column>
-				</row>
-			</container>
+		<container id="premium-clean">
 
-		{{/each}}<!-- /raw-helper -->
+			<row style="background-color: none;" class="peat-banner-t">
+				<column>
+				</column>
+			</row>
 
+			<row style="background-color: #003349e1;margin-left:24px;margin-right:24px;" class="gutter-xl peat-banner pad-t">
+				<column>
+					<!--[if !mso]><!--><img class="mobile-icon" height="48"
+						src="https://www-vacasa.imgix.net/disinfectant-1.png?auto=format%2Ccompress&ixlib=python-3.1.1&q=45&s=b5106f465ea8dd761495fa26603225a6"
+						alt="Vacasa Premium Clean" style="margin: auto;height:48px;">
+					<!--<![endif]-->
 
-		{{> vacasa-footer }}
+				</column>
+			</row>
+
+			<row style="background-color: #003349e1;margin-left:24px;margin-right:24px;" class="gutter peat-banner pad-b">
+				<column large="2" small="0" class="main pad-t pad-b" style="vertical-align: middle;">
+					<img
+						src="https://www-vacasa.imgix.net/disinfectant-1.png?auto=format%2Ccompress&ixlib=python-3.1.1&q=45&s=b5106f465ea8dd761495fa26603225a6"
+						alt="Vacasa Premium Clean" style="display: block; margin: 0 auto;" width="93">
+				</column>
+				<column large="1" small="0" class="main pad-t pad-b" style="vertical-align: middle;">
+					<p>&nbsp;</p>
+				</column>
+				<column large="9" small="12" class="main pad-t pad-b" style="vertical-align: middle;">
+					<h2 style="color:#ffffff;" class="pad-b-sml">Arrive and relax</h2>
+					<p style="color:#ffffff;" class="pad-b-sml">Our upgraded housekeeping measures mean every
+						home is clean,
+						comfortable, and ready for you.</p><br>
+					<a style="color:#ffffff; font-weight:bold; text-decoration: underline white"
+						href="https://www.vacasa.com/support/vacasa-premium-clean&utm_source=peat&utm_medium=email&utm_campaign=long_term_rentals"
+						target="_blank" style="text-decoration: none;color: #0078ab;">
+						<p style="color:#ffffff;" style="text-decoration: none;color: #0078ab;">Learn about Vacasa Premium
+							Clean&nbsp;&#8250;</p>
+					</a>
+				</column>
+			</row>
+			<row style="background-color: none;" class="peat-banner-b">
+				<column></column>
+			</row>
+
+		</container>
+
 	</body>
 </heml>

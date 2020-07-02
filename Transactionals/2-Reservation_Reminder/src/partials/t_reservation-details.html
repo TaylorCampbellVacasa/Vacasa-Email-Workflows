@@ -3,14 +3,14 @@
 	<row>
 		<column class="padding-b-small left-col-item text-left mbl-pad-md" large="7" small="12">
 			<p class="reservation-unit-address">
-				<!-- raw-helper -->
+				<!-- {{{{raw-helper}}}} -->
 				<span class="reservation-unit-name"><strong>{{ UNIT_NAME }}</strong></span><br />
 				{{ RESERVATION_UNIT_ADDRESS_ADDRESS_1 }}<br />
 				{{#if RESERVATION_UNIT_ADDRESS_ADDRESS_2 }}
 					{{RESERVATION_UNIT_ADDRESS_ADDRESS_2}}<br />
 				{{/if}}
 				{{ RESERVATION_UNIT_ADDRESS_CITY }}, {{ RESERVATION_UNIT_ADDRESS_STATE }} {{ RESERVATION_UNIT_ADDRESS_ZIP }}
-				<!-- /raw-helper -->
+				<!-- {{{{/raw-helper}}}} -->
 			</p>
 		</column>
 		<column class="padding-b right-col-item text-left mbl-pad-md" large="5" small="12">
@@ -29,17 +29,17 @@
 		<column class="left-col-item padding-b mbl-pad-md" large="7" small="12">
 			<span class="info-prehead">Check in</span>
 			<p class="reservation-info-value">
-				<!-- raw-helper -->
+				<!-- {{{{raw-helper}}}} -->
 				{{date RESERVATION_CHECK_IN_TIME "ddd MMM D, h:mm a" }}
-				<!-- /raw-helper -->
+				<!-- {{{{/raw-helper}}}} -->
 			</p>
 		</column>
 		<column class="right-col-item mbl-pad-md" large="5" small="12">
 			<span class="info-prehead">Check out</span>
 			<p class="reservation-info-value">
-				<!-- raw-helper -->
+				<!-- {{{{raw-helper}}}} -->
 				{{date RESERVATION_CHECK_OUT_TIME "ddd MMM D, h:mm a" }}
-				<!-- /raw-helper -->
+				<!-- {{{{/raw-helper}}}} -->
 			</p>
 		</column>
 	</row>
@@ -52,9 +52,9 @@
 		<column class="left-col-item mbl-pad-md" large="7" small="12">
 			<span class="info-prehead">Guests</span>
 			<p class="reservation-info-value">
-				<!-- raw-helper -->
+				<!-- {{{{raw-helper}}}} -->
 				{{ RESERVATION_ADULTS }} Adults, {{ RESERVATION_CHILDREN }} children, {{ RESERVATION_PETS }} dog(s)
-				<!-- /raw-helper -->
+				<!-- {{{{/raw-helper}}}} -->
 			</p>
 		</column>
 

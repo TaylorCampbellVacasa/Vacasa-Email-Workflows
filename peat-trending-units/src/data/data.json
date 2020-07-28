@@ -1,82 +1,147 @@
 {
-  "data": [
+  "full_name": "Jeffrey Gorham",
+  "schedule_date": "2020-07-06",
+  "is_employee": false,
+  "schedule": [
     {
-      "personal_data": {
-        "new_to_brand": true
-      },
-      "recommendations": {
-        "trending": [
-          {
-            "active": true,
-            "active_unit_count": 201,
-            "city_id": "27",
-            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/95.jpg",
-            "image": "https://vacasa.imgix.net/images/locations/large/95.jpg",
-            "image_url": null,
-            "name": "Lincoln City",
-            "state_id": "37",
-            "target_id": 408899,
-            "url": "/usa/Oregon/Lincoln-City/"
-          },
-          {
-            "active": true,
-            "active_unit_count": 1128,
-            "country_id": "1",
-            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/2515.jpg",
-            "destination_id": "2",
-            "full_slug": "/usa/Oregon-Coast/",
-            "name": "Oregon Coast",
-            "target_id": 408899,
-            "url": "Oregon-Coast"
-          },
-          {
-            "active": true,
-            "active_unit_count": 224,
-            "city_id": "7",
-            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/71.jpg",
-            "image_url": null,
-            "name": "Sunriver",
-            "state_id": "37",
-            "target_id": 408899,
-            "url": "/usa/Oregon/Sunriver/"
-          },
-          {
-            "active": true,
-            "active_unit_count": 196,
-            "city_id": "1",
-            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/17.jpg",
-            "image": "https://vacasa.imgix.net/images/locations/large/17.jpg",
-            "image_url": null,
-            "name": "Rockaway Beach",
-            "state_id": "37",
-            "target_id": 408899,
-            "url": "/usa/Oregon/Rockaway-Beach/"
-          },
-          {
-            "active": true,
-            "active_unit_count": 83,
-            "city_id": "30",
-            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/108.jpg",
-            "image_url": null,
-            "name": "Seaside",
-            "state_id": "37",
-            "target_id": 408899,
-            "url": "/usa/Oregon/Seaside/"
-          },
-          {
-            "active": true,
-            "active_unit_count": 69,
-            "city_id": "3",
-            "dest_imageid": "https://vacasa.imgix.net/images/locations/large/1386.jpg",
-            "image_url": null,
-            "name": "Newport",
-            "state_id": "37",
-            "target_id": 408899,
-            "url": "/usa/Oregon/Newport/"
+      "date": "2020-07-06",
+      "rows": []
+    },
+    {
+      "date": "2020-07-07",
+      "rows": []
+    },
+    {
+      "date": "2020-07-08",
+      "rows": []
+    },
+    {
+      "date": "2020-07-09",
+      "rows": []
+    },
+    {
+      "date": "2020-07-10",
+      "rows": []
+    },
+    {
+      "date": "2020-07-11",
+      "rows": []
+    },
+    {
+      "date": "2020-07-12",
+      "rows": [
+        {
+          "type": "clean",
+          "value": {
+            "start": "2020-07-12 10:00:00",
+            "deadline": "2020-07-13 16:00:00",
+            "b2b": "",
+            "unit_id": 20545,
+            "unit_code": "MECO01",
+            "smart_lock_code": null,
+            "guests": 2,
+            "pets": 0,
+            "team": []
           }
-        ]
-      },
-      "utms": "?utm_source=sendgrid&utm_medium=email&utm_campaign=emaildev"
+        },
+        {
+          "type": "clean",
+          "value": {
+            "start": "2020-07-12 11:00:00",
+            "deadline": "2020-07-13 16:00:00",
+            "b2b": "",
+            "unit_id": 26136,
+            "unit_code": "MEFR02",
+            "smart_lock_code": null,
+            "guests": 1,
+            "pets": 0,
+            "team": []
+          }
+        },
+        {
+          "type": "clean",
+          "value": {
+            "start": "2020-07-12 10:00:00",
+            "deadline": "2020-07-13 16:00:00",
+            "b2b": "",
+            "unit_id": 38528,
+            "unit_code": "MEPO07b",
+            "smart_lock_code": null,
+            "guests": 2,
+            "pets": 0,
+            "team": []
+          }
+        }
+      ]
+    },
+    {
+      "date": "2020-07-13",
+      "rows": []
+    },
+    {
+      "date": "2020-07-14",
+      "rows": []
+    },
+    {
+      "date": "2020-07-15",
+      "rows": []
+    },
+    {
+      "date": "2020-07-16",
+      "rows": []
+    },
+    {
+      "date": "2020-07-17",
+      "rows": []
+    },
+    {
+      "date": "2020-07-18",
+      "rows": []
+    },
+    {
+      "date": "2020-07-19",
+      "rows": []
+    }
+  ],
+  "unit_details": [
+    {
+      "unit_id": 20545,
+      "unit_code": "MECO01",
+      "unit_name": "Point Sebago Destiny",
+      "address": "1638 Pine Dr.",
+      "city": "Casco",
+      "state": "ME",
+      "has_smart_lock": false,
+      "primary_lock": "3382",
+      "backup_lock": "n/a",
+      "lockbox_notes": "The lock box is attached to the front door handle",
+      "housekeeper_notes": ""
+    },
+    {
+      "unit_id": 26136,
+      "unit_code": "MEFR02",
+      "unit_name": "By the Sea",
+      "address": "369 Lower Flying Point Rd",
+      "city": "South Freeport",
+      "state": "ME",
+      "has_smart_lock": false,
+      "primary_lock": "62719",
+      "backup_lock": "2020",
+      "lockbox_notes": "primary lockbox is on the front door, secondary is lockbox is located on the left outside of the garage.",
+      "housekeeper_notes": "TRASH/RECYCLING- place in barrels outside. Vacasa MT will pick up"
+    },
+    {
+      "unit_id": 38528,
+      "unit_code": "MEPO07b",
+      "unit_name": "Cumberland Charm",
+      "address": "123 Cumberland Ave, #1",
+      "city": "Portland",
+      "state": "ME",
+      "has_smart_lock": false,
+      "primary_lock": "7494 electronic",
+      "backup_lock": "7494 electronic",
+      "lockbox_notes": "electronic keypad at apartment entrance",
+      "housekeeper_notes": ""
     }
   ]
 }

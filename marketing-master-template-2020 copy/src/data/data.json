@@ -1,0 +1,176 @@
+{
+  "data": [
+    {
+      "recommendations": {
+        "remote_home": {
+          "recommended_units": [
+            {
+              "attributes": {
+                "active": 1,
+                "avg_rate": 382,
+                "bathrooms": {
+                  "full_baths": 2,
+                  "half_baths": 0
+                },
+                "bedrooms": 3,
+                "city_name": "Anna Maria, FL",
+                "city_url": "/usa/Florida/Anna-Maria/",
+                "currency_code": "USD",
+                "date_first_active": "2018-11-01",
+                "display": true,
+                "display_address": true,
+                "has_matterport": true,
+                "high_rate": 595,
+                "is_searchable": true,
+                "lat": 27.534448,
+                "lng": -82.742416,
+                "low_rate": 219,
+                "max_adults": 6,
+                "max_occupancy": 6,
+                "name": "Over The Moon",
+                "photos_list": [
+                  "//vacasa-units.imgix.net/1232832.jpg",
+                  "//vacasa-units.imgix.net/1232779.jpg",
+                  "//vacasa-units.imgix.net/1232828.jpg"
+                ],
+                "region_id": "139",
+                "region_name": "FL - Anna Maria Island",
+                "review": {
+                  "avg_score": 5,
+                  "count": 17
+                },
+                "terminated": 0,
+                "timezone": "America/New_York",
+                "unit_code": "FLAM76"
+              },
+              "unit_id": "20108"
+            },
+            {
+              "attributes": {
+                "active": 1,
+                "avg_rate": 1234,
+                "bathrooms": {
+                  "full_baths": 4,
+                  "half_baths": 1
+                },
+                "bedrooms": 4,
+                "city_name": "Holmes Beach, FL",
+                "city_url": "/usa/Florida/Holmes-Beach/",
+                "currency_code": "USD",
+                "date_first_active": "2017-12-29",
+                "display": true,
+                "display_address": true,
+                "has_matterport": true,
+                "high_rate": 1948,
+                "is_searchable": true,
+                "lat": 27.488733,
+                "lng": -82.708016,
+                "low_rate": 715,
+                "max_adults": 8,
+                "max_occupancy": 8,
+                "name": "Wine Down ",
+                "photos_list": [
+                  "//vacasa-units.imgix.net/783385.jpg",
+                  "//vacasa-units.imgix.net/783323.jpg",
+                  "//vacasa-units.imgix.net/783335.jpg"
+                ],
+                "region_id": "139",
+                "region_name": "FL - Anna Maria Island",
+                "review": {
+                  "avg_score": 5,
+                  "count": 15
+                },
+                "terminated": 0,
+                "timezone": "America/New_York",
+                "unit_code": "FLHB156"
+              },
+              "unit_id": "13778"
+            },
+            {
+              "attributes": {
+                "active": 1,
+                "avg_rate": 191,
+                "bathrooms": {
+                  "full_baths": 2,
+                  "half_baths": 1
+                },
+                "bedrooms": 3,
+                "city_name": "Bradenton, FL",
+                "city_url": "/usa/Florida/Bradenton/",
+                "currency_code": "USD",
+                "date_first_active": "2017-09-13",
+                "display": true,
+                "display_address": true,
+                "has_matterport": true,
+                "high_rate": 290,
+                "is_searchable": true,
+                "lat": 27.50494,
+                "lng": -82.620022,
+                "low_rate": 124,
+                "max_adults": 6,
+                "max_occupancy": 8,
+                "name": "Seventh Heaven at Harbor Hills",
+                "photos_list": [
+                  "//vacasa-units.imgix.net/1433893.jpg",
+                  "//vacasa-units.imgix.net/1433888.jpg",
+                  "//vacasa-units.imgix.net/638344.jpg"
+                ],
+                "region_id": "66",
+                "region_name": "FL - Tampa Bay",
+                "review": {
+                  "avg_score": 4.5,
+                  "count": 27
+                },
+                "terminated": 0,
+                "timezone": "America/New_York",
+                "unit_code": "FLBR19"
+              },
+              "unit_id": "11728"
+            },
+            {
+              "attributes": {
+                "active": 1,
+                "avg_rate": 131,
+                "bathrooms": {
+                  "full_baths": 2,
+                  "half_baths": 0
+                },
+                "bedrooms": 2,
+                "city_name": "New Smyrna Beach, FL",
+                "city_url": "/usa/Florida/New-Smyrna-Beach/",
+                "currency_code": "USD",
+                "date_first_active": "2018-03-30",
+                "display": true,
+                "display_address": true,
+                "has_matterport": true,
+                "high_rate": 210,
+                "is_searchable": true,
+                "lat": 28.99509,
+                "lng": -80.872573,
+                "low_rate": 79,
+                "max_adults": 5,
+                "max_occupancy": 5,
+                "name": "Buddy's Place at the Beach",
+                "photos_list": [
+                  "//vacasa-units.imgix.net/1594669.jpg",
+                  "//vacasa-units.imgix.net/1594668.jpg",
+                  "//vacasa-units.imgix.net/1594667.jpg"
+                ],
+                "region_id": "54",
+                "region_name": "FL - Central Florida",
+                "review": {
+                  "avg_score": 4.5,
+                  "count": 15
+                },
+                "terminated": 0,
+                "timezone": "America/New_York",
+                "unit_code": "FLNSB24"
+              },
+              "unit_id": "15343"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

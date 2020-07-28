@@ -1,0 +1,120 @@
+<heml>
+
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
+
+		<style>
+			container#premium-clean {
+				background-color: #003349;
+				background-image: url('https://vacasa-units.imgix.net/2176010.jpg?w=640&fit=max&q=40&auto=format&blend-color=2C3439&blur=20&blend-alpha=100');
+			}
+
+			.primary {
+				background-color: #ffd00a;
+				border: 1px solid #ffd00a;
+				border-radius: 4px;
+				color: #2c3439;
+				width: 100%;
+				min-width: 220px;
+				font-family: "Nunito Sans", Arial, sans-serif;
+				font-size: 16px;
+				font-weight: 700;
+				text-align: center;
+				text-decoration: none;
+				white-space: nowrap;
+				display: inline-block;
+			}
+
+			.peat-banner-t {
+				padding-top: 24px;
+			}
+
+			.peat-banner-b {
+				padding-bottom: 24px;
+			}
+
+			.pad-b-sml {
+				padding-bottom: 8px;
+			}
+
+			.mobile-icon {
+				display: none;
+			}
+
+			.pad-t {
+				padding-top: 16px;
+			}
+
+			.pad-t-lrg {
+				padding-top: 24px;
+			}
+
+			.gutter {
+				padding-left: 24px;
+				padding-right: 24px;
+			}
+
+			@media only screen and (max-width: 600px) {
+				.peat-banner {
+					padding-left: 16px !important;
+					padding-right: 16px !important;
+				}
+
+				.mobile-icon {
+					display: block !important;
+				}
+
+				.primary {
+					font-size: 12px !important;
+					text-decoration: none;
+					display: inline-block;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<bonk></bonk>
+		<container>
+			<row style="background-color: #FFAD02;height:4px;">
+				<column style="font-size:4px;">
+				</column>
+			</row>
+		</container>
+
+		<container id="premium-clean">
+
+			<row style="background-color: none;" class="peat-banner-t">
+				<column>
+				</column>
+			</row>
+
+			<row style="background-color: #003349e1;margin-left:24px;margin-right:24px;" class="gutter peat-banner">
+				<column large="2" small="0" class="pad-t-lrg" style="vertical-align: middle;padding-left: 8px;">
+					<img
+						src="http://cdn.mcauto-images-production.sendgrid.net/fc2fa22bf8f6e266/fbea393e-4a1b-4b6e-97f4-718daad1bdad/200x200.png"
+						alt="Vacasa Premium Clean" style="display: block; margin: 0 auto;" width="88">
+				</column>
+				<column large="1" small="0" class="pad-t" style="vertical-align: middle;">
+					<p>&nbsp;</p>
+				</column>
+				<column large="9" small="12" style="vertical-align: middle;">
+					<h2 style="color:#ffffff;" class="pad-b-sml">Worry-free booking</h2>
+					<p style="color:#ffffff;">If your plans change, you have options.</p><br>
+				</column>
+			</row>
+			<row style="background-color: #003349e1;margin-left:24px;margin-right:24px;" class="gutter peat-banner pad-b-sml">
+				<column large="3" small="0">
+				</column>
+				<column large="9" small="12" class="pad-b-sml">
+					{{> primary-button }}
+				</column>
+
+			</row>
+			<row style="background-color: none;" class="peat-banner-b">
+				<column></column>
+			</row>
+		</container>
+		<bonk></bonk>
+	</body>
+</heml>

@@ -1,4 +1,9 @@
 # Don't track content of these folders
-node_modules/
+**/node_modules
 *.DS_Store
-temp/
+**/temp
+**/.prettierrc
+**/README.md
+**/.vscode
+**/package-lock.json
+**/package.json

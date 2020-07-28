@@ -1,152 +1,252 @@
-<heml>
+<head>
+	<style>
+		a {
+			text-decoration: none;
+		}
 
-	<head>
-		<preview>We love these trending getaways—and so will you</preview>
+		body {
+			padding-left: 20%;
+			padding-right: 20%;
+			padding-top: 2%;
+		}
 
-		<!-- inject-style src="src/CSS/base.css" -->
-		<!-- inject-style src="src/CSS/header.css" -->
-		<!-- inject-style src="src/CSS/cta.css" -->
-		<!-- inject-style src="src/CSS/search.css" -->
-		<!-- inject-style src="src/CSS/vacasa-banner-v3.css" -->
-		<!-- inject-style src="src/CSS/waterfall.css" -->
-		<style>
-			.ntb.background-dark {
-				background-color: #003349;
-			}
+		h3 {
+			width: 100%;
+			text-align: center;
+			border-bottom: 1px solid #000;
+			line-height: 0.1em;
+			margin: 10px 0 20px;
+		}
 
-			.intro-logo {
-				display: block;
-				margin: 0 auto;
-				padding-top: 16px;
-			}
+		h3 span {
+			background: #fff;
+			padding: 0 10px;
+		}
 
-			.intro.gutter {
-				padding-left: 12px;
-				padding-right: 12px;
-			}
+		.title-container {
+			display: grid;
+			grid-template-areas:
+				"b2b"
+				"property-name"
+				"address"
+				"view-home";
+			row-gap: 10px;
+		}
 
-			.ntb.padding-t {
-				padding-top: 12px;
-			}
+		.b2b {
+			grid-area: b2b;
+			color: white;
+			padding: 3px;
+			margin: 5px;
+			margin-left: 0;
+			border-radius: 6px;
+			background-color: blue;
+			font-size: 10pt;
+		}
 
-			.ntb.padding-b {
-				padding-bottom: 12px;
-			}
+		.property-name {
+			grid-area: property-name;
+			font-size: 12pt;
+			font-weight: bold;
+		}
 
-			.border-soft {
-				border-radius: 3px;
-			}
+		.address {
+			grid-area: property-name;
+			font-size: 10pt;
+		}
 
-			.intro.text-left {
-				text-align: left;
-			}
+		.view-home {
+			grid-area: view-home;
+			font-size: 10pt;
+		}
 
-			.intro h1 {
-				font-family: "Nunito Sans", Arial, sans-serif;
-				font-size: 16px;
-				font-weight: 400;
-				line-height: 1.3;
-				text-decoration: none;
-				margin: 10px 0;
-			}
+		.info-container {
+			display: grid;
+			grid-template-areas:
+				"start start-data start-data start-data"
+				"due   due-data   due-data   due-data"
+				"guests guest-data guest-data guest-data"
+				"access  primary   primary   primary"
+				"access   backup    backup    backup"
+				"access   notes     notes     notes"
+				"add-notes  notes-data  notes-data  notes-data";
+			column-gap: 30px;
+			row-gap: 5px;
+			font-size: 10pt;
+		}
 
-			.text-light {
-				color: #FFFFFF;
-			}
+		.start {
+			grid-area: start;
+		}
 
-			.intro p.ntb {
-				font-family: "Nunito Sans", Arial, sans-serif;
-				font-size: 14px;
-				font-weight: 400;
-				line-height: 1.3;
-				text-decoration: none;
-				padding-top: 12px;
-				margin: 0;
-			}
-		</style>
-		<style heml-ignore>
-			@media (min-width:500px) {
-				.padding-extra {
-					padding-left: 32px;
-					padding-right: 32px;
-				}
+		.start-data {
+			grid-area: start-data;
+			font-weight: lighter;
+		}
 
-				.intro.gutter {
-					padding-left: 24px;
-					padding-right: 24px;
-				}
-			}
-		</style>
-	</head>
+		.due {
+			grid-area: due;
+		}
 
-	<body>
-		<!-- raw-helper -->{{#each data}}
+		.due-data {
+			grid-area: due-data;
+			font-weight: lighter;
+		}
 
+		.guests {
+			grid-area: guests;
+		}
 
-			{{#if this.personal_data.new_to_brand }}
-				<!--START DARK INTRO-->
-				<container>
-					<row class="ntb">
-						<column class="ntb text-center intro gutter padding-t padding-b border-soft background-dark">
-							<img class="ntb intro-logo" width="125"
-								src="https://assets.vacasa.com/images/logo-2018/vacasa_logo_color_light.png">
-							<!--[if mso]><br /><![endif]-->
-							<p class="ntb intro text-center text-light padding-extra">Vacasa proudly manages over 25,000 vacation
-								homes
-								around the world. When you book with us, you get more than a vacation rental—you get professional
-								service
-								you can count on.</p>
-						</column>
-					</row>
-					<row>
-						<column style="background: #ffffff;" class="padding-b">
-						</column>
-					</row>
-				</container>
-				<!--END DARK INTRO-->
-			{{else}}<!-- /raw-helper -->
-				{{> header }}
-				<!-- raw-helper -->
-			{{/if}}<!-- /raw-helper -->
+		.guest-data {
+			grid-area: guest-data;
+			font-weight: lighter;
+		}
 
+		.access {
+			grid-area: access;
+		}
 
+		.primary {
+			grid-area: primary;
+			font-weight: lighter;
+		}
 
-			<container>
-				<row>
-					<column class="cta gutter mobile-padding-small text-center small-head padding-b mobile-pb-small">
-						<h1>Your next vacation is&nbsp;trending</h1>
-					</column>
-				</row>
-				<row>
-					<column class="cta gutter mobile-padding-small text-center padding-b-xtra-large mobile-pb-lg">
-						<h2 class="sub">Check out our most popular destinations right now.</h2>
-					</column>
-				</row>
-			</container>
+		.backup {
+			grid-area: backup;
+			font-weight: lighter;
+		}
 
-			{{> image-waterfall }}
+		.notes {
+			grid-area: notes;
+			font-weight: lighter;
+		}
 
+		.add-notes {
+			grid-area: add-notes;
+		}
 
+		.notes-data {
+			grid-area: notes-data;
+			font-weight: lighter;
+		}
 
-			<container>
-				<row>
-					<column class="padding-b">
-						<!--pad-col-->
-					</column>
-				</row>
-			</container>
+		.no-clean {
+			font-size: 10pt;
+		}
+	</style>
+</head>
 
+<body>
 
+	<b>{{schedule_date}}</b>
 
+	<h2 style="margin:0">Schedule for {{full_name}}</h2>
 
+	{{#if is_employee}}
 
+		<a href="https://www.vacasa.com/admin/dashboard/schedules/timeoff" target="_blank">Request a day off</a>
+		|
+		<a href="https://www.vacasa.com/admin/tools/hours-tracker" target="_blank">Track Hours</a>
 
+	{{else}}
+		<a href="https://www.vacasa.com/admin/dashboard/housekeeping/invoices/index" target="_blank">View Invoices</a>
+	{{/if}}
 
+	<!-- <h1>Today, weekday, Month day (number of assignments)</h1> -->
 
-			{{> search }}
-			<!-- raw-helper -->
-		{{/each}}<!-- /raw-helper -->
+	<!-- post-stay     owner      b2b -->
+	<br />
+	<br />
+	<br />
+	{{#each schedule}}
+		{{#lte @index 6}}
+			{{#if this.rows}}
 
-		{{> vacasa-footer }}
-	</body>
-</heml>
+				{{#if @first}}
+					<h3><span>Today {{this.date}}</span></h3>
+				{{else}}
+					<h3><span>{{this.date}}</span></h3>
+				{{/if}}
+				<br />
+
+				{{#each this.rows}}
+					{{#each ../../unit_details}}
+						{{#eq unit_id ../this.value.unit_id}}
+							{{#eq ../this.value.b2b "Yes"}}
+								<b class="b2b">B2B</b>
+							{{/eq}}
+							<br />
+							<b class="property-name">{{../this.value.unit_code}} - {{unit_name}}</b>
+							<br />
+							<b class="address">{{address}}, {{city}}, {{state}} <a
+									href="http://maps.google.com/?q={{address}}, {{city}}, {{state}}" target="_blank">Open Map</a></b>
+							<br />
+							<a href="http://www.vacasa.com/unit.php?UnitID={{unit_id}}" target="_blank" class="view-home">View
+								Home</a>
+							<br />
+							<br />
+							<div class="info-container">
+								<b class="start">Start:</b>
+								<b class="start-data">{{../this.value.start}}</b>
+
+								<b class="due">Deadline: </b>
+								<b class="due-data">{{../this.value.deadline}}</b>
+
+								<b class="guests">Guests:</b>
+								<b class="guest-data"> {{../this.value.guests}} guests, {{../this.value.pets}} pets</b>
+
+								<!-- predicted time -->
+								<!-- Wifi -->
+								<b class="access">Access:</b>
+
+								{{#eq primary_lock null}}
+									<b class="primary">Primary Lock: ---</b>
+					{{else}}
+						<b class="primary">Primary Lock: {{primary_lock}}</b>
+								{{/eq}}
+
+								{{#eq backup_lock null}}
+									<b class="backup">Backup Lock: ---</b>
+					{{else}}
+						<b class="backup">Backup Lock: {{backup_lock}}</b>
+								{{/eq}}
+
+								{{#eq lockbox_notes ""}}
+									<b class="notes">Lock Notes: ---</b>
+					{{else}}
+						<b class="notes">Lock Notes: {{lockbox_notes}}</b>
+								{{/eq}}
+
+								{{#eq housekeeper_notes ""}}
+									<b class="add-notes">Additional Notes:</b>
+									<b class="notes-data">---</b>
+					{{else}}
+						<b class="add-notes">Additional Notes:</b>
+						<b class="notes-data">{{housekeeper_notes}}</b>
+								{{/eq}}
+
+							</div>
+							<br />
+						{{/eq}}
+					{{/each}}
+				{{/each}}
+
+			{{else}}
+				{{#if @first}}
+					<h3><span>Today {{this.date}}</span></h3>
+					<br />
+					<b class="no-clean">No Clean Assignments</b>
+					<br />
+					<br />
+				{{else}}
+					<h3><span>{{this.date}}</span></h3>
+					<br />
+					<b class="no-clean">No Clean Assignments</b>
+					<br />
+					<br />
+				{{/if}}
+			{{/if}}
+		{{/lte}}
+	{{/each}}
+
+</body>

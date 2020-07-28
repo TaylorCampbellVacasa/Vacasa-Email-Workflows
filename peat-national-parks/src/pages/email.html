@@ -82,7 +82,7 @@
 
 	<body>
 
-		<!-- {{{{raw-helper}}}} -->{{#each data}}
+		<!-- raw-helper -->{{#each data}}
 
 
 			{{#if this.personal_data.new_to_brand }}
@@ -106,16 +106,16 @@
 					</row>
 				</container>
 				<!--END DARK INTRO-->
-			{{else}}<!-- {{{{/raw-helper}}}} -->
+			{{else}}<!-- /raw-helper -->
 				{{> header }}
-				<!-- {{{{raw-helper}}}} -->
-			{{/if}}<!-- {{{{/raw-helper}}}} -->
+				<!-- raw-helper -->
+			{{/if}}<!-- /raw-helper -->
 
 			{{> cta-small-head }}
 
-			<!-- {{{{raw-helper}}}} -->{{#this.recommendations.national_parks }}
-				<!-- {{{{/raw-helper}}}} -->
-				{{> destination-card-2 name="{{park_name}}" image="{{{cityimage}}}" url="{{{url}}}" utm="{{{../utms}}}"}}
+			<!-- raw-helper -->{{#this.recommendations.national_parks }}
+				<!-- /raw-helper -->
+				{{> destination-card-2 name=park_name image=cityimage url=url utm=../utms}}
 
 
 				<container>
@@ -123,7 +123,7 @@
 						<column class="four-b-gutter mobile-padding-med padding-b-huge">
 							<container class="outlook-fourb">
 								<row class="dc-unit-container padding-t" style="background: #f5f7f8;">
-									<!-- {{{{raw-helper}}}} -->{{#this.recommended_units}}
+									<!-- raw-helper -->{{#this.recommended_units}}
 										<column class="four-box padding-b-small col-12-xs" large="3" small="6" style="background: #f5f7f8;">
 
 											<a href="https://www.vacasa.com{{{ attributes.city_url }}}?{{{ ../../utms }}}" target="_blank">
@@ -148,7 +148,7 @@
 				</container>
 			{{/this.recommendations.national_parks}}
 
-		{{/each}}<!-- {{{{/raw-helper}}}} -->
+		{{/each}}<!-- /raw-helper -->
 		{{> vacasa-footer	 }}
 	</body>
 </heml>
